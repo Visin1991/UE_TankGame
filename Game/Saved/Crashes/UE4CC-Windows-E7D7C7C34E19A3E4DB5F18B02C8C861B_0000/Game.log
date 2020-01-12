@@ -1,0 +1,768 @@
+﻿Log file open, 01/12/20 12:01:56
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: Game
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(1073745471) SRandInit(1073745472).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.217543
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3658906
+LogInit: Engine Version: 4.17.2-3658906+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line: -EpicPortal  -epicusername="Visin2014" -epicuserid=af8eca7cf2f64770afa50fcfdba1e890 -epiclocale=en-US
+LogInit: Base directory: D:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2020.01.12-04.01.59:543][  0]LogInit: Selected Device Profile: [Windows]
+[2020.01.12-04.01.59:543][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.01.12-04.01.59:561][  0]LogInit: Computer: SKY-20180922ULI
+[2020.01.12-04.01.59:561][  0]LogInit: User: Administrator
+[2020.01.12-04.01.59:561][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.01.12-04.01.59:561][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.01.12-04.01.59:561][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.01.12-04.01.59:561][  0]LogMemory: Platform Memory Stats for Windows
+[2020.01.12-04.01.59:561][  0]LogMemory: Process Physical Memory: 277.78 MB used, 277.79 MB peak
+[2020.01.12-04.01.59:561][  0]LogMemory: Process Virtual Memory: 274.35 MB used, 274.35 MB peak
+[2020.01.12-04.01.59:562][  0]LogMemory: Physical Memory: 5264.33 MB used,  11036.03 MB free, 16300.36 MB total
+[2020.01.12-04.01.59:562][  0]LogMemory: Virtual Memory: 4787.75 MB used,  11036.03 MB free, 134217728.00 MB total
+[2020.01.12-04.02.00:282][  0]LogInit: Overriding language with editor language configuration option (en).
+[2020.01.12-04.02.00:282][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2020.01.12-04.02.01:254][  0]LogD3D11RHI: D3D11 adapters:
+[2020.01.12-04.02.01:296][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2020.01.12-04.02.01:296][  0]LogD3D11RHI:       4064/0/8150 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2020.01.12-04.02.01:308][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2020.01.12-04.02.01:308][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2020.01.12-04.02.01:315][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.01.12-04.02.01:315][  0]LogD3D11RHI:       0/0/8150 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.01.12-04.02.01:315][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.01.12-04.02.01:346][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.01.12-04.02.01:346][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2020.01.12-04.02.01:346][  0]LogWindows: EnumDisplayDevices:
+[2020.01.12-04.02.01:346][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2020.01.12-04.02.01:347][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:1)
+[2020.01.12-04.02.01:348][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2020.01.12-04.02.01:349][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2020.01.12-04.02.01:349][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2020.01.12-04.02.01:349][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2020.01.12-04.02.01:349][  0]LogD3D11RHI:      Driver Date: Unknown
+[2020.01.12-04.02.01:349][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2020.01.12-04.02.01:374][  0]LogD3D11RHI: Async texture creation enabled
+[2020.01.12-04.02.01:386][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.01.12-04.02.01:389][  0]LogShaderCompilers: Guid format shader working directory is -1 characters bigger than the processId version (../../../../../../Documents/GitProject/UE_TankGame/Game/Intermediate/Shaders/WorkingDirectory/5140/).
+[2020.01.12-04.02.01:389][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Administrator/AppData/Local/Temp/UnrealShaderWorkingDir/7EEA117E4BFC6179D6AE33BABFE6996B/'.
+[2020.01.12-04.02.01:389][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.01.12-04.02.02:989][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2020.01.12-04.02.03:167][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2020.01.12-04.02.03:337][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2020.01.12-04.02.03:508][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2020.01.12-04.02.03:689][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2020.01.12-04.02.03:873][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2020.01.12-04.02.04:077][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2020.01.12-04.02.04:255][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2020.01.12-04.02.04:425][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2020.01.12-04.02.04:629][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.01.12-04.02.04:835][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2020.01.12-04.02.05:048][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2020.01.12-04.02.05:261][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2020.01.12-04.02.05:456][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2020.01.12-04.02.05:629][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2020.01.12-04.02.05:961][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2020.01.12-04.02.05:961][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2020.01.12-04.02.06:116][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2020.01.12-04.02.06:399][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2020.01.12-04.02.06:502][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2020.01.12-04.02.06:669][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2020.01.12-04.02.06:841][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2020.01.12-04.02.07:012][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2020.01.12-04.02.07:196][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2020.01.12-04.02.07:196][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.01.12-04.02.09:078][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.01.12-04.02.09:197][  0]LogDerivedDataCache: Loaded boot cache 0.12s 93MB C:/Users/Administrator/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2020.01.12-04.02.09:197][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Administrator/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2020.01.12-04.02.09:197][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Documents/GitProject/UE_TankGame/Game/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.01.12-04.02.09:197][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.01.12-04.02.09:197][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Documents/GitProject/UE_TankGame/Game/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.01.12-04.02.09:197][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.01.12-04.02.09:218][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.01.12-04.02.09:235][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Administrator/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.01.12-04.02.09:246][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.01.12-04.02.09:246][  0]LogSlate: Using Freetype 2.6.0
+[2020.01.12-04.02.09:247][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.01.12-04.02.09:247][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.01.12-04.02.09:585][  0]LogAssetRegistry: FAssetRegistry took 0.0279 seconds to start up
+[2020.01.12-04.02.09:821][  0]LogInit: Selected Device Profile: [Windows]
+[2020.01.12-04.02.10:050][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2020.01.12-04.02.10:970][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2020.01.12-04.02.11:126][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2020.01.12-04.02.11:126][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.01.12-04.02.11:126][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2020.01.12-04.02.11:126][  0]LogMeshReduction: No automatic mesh merging module available
+[2020.01.12-04.02.11:126][  0]LogMeshMerging: No automatic mesh merging module available
+[2020.01.12-04.02.11:682][  0]LogNetVersion: Game , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2957514414)
+[2020.01.12-04.02.12:155][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 1 prioritized culture(s) in 0.063071 seconds
+[2020.01.12-04.02.12:162][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2020.01.12-04.02.12:162][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2020.01.12-04.02.12:162][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.01.12-04.02.12:457][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2020.01.12-04.02.19:401][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.01.12-04.02.19:520][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.01.12-04.02.21:752][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2020.01.12-04.02.23:010][  0]SourceControl: Source control is disabled
+[2020.01.12-04.02.23:010][  0]SourceControl: Source control is disabled
+[2020.01.12-04.02.23:183][  0]SourceControl: Source control is disabled
+[2020.01.12-04.02.23:356][  0]SourceControl: Source control is disabled
+[2020.01.12-04.02.25:535][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.01.12-04.02.26:383][  0]LogOcInput: OculusInput pre-init called
+[2020.01.12-04.02.27:222][  0]LogEngine: Initializing Engine...
+[2020.01.12-04.02.27:226][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.01.12-04.02.27:479][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2020.01.12-04.02.27:479][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2020.01.12-04.02.27:977][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.01.12-04.02.28:014][  0]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.01.12-04.02.28:073][  0]LogInit: FAudioDevice initialized.
+[2020.01.12-04.02.28:182][  0]LogDerivedDataCache: Saved boot cache 0.11s 93MB C:/Users/Administrator/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2020.01.12-04.02.28:195][  0]LogInit: Texture streaming: Enabled
+[2020.01.12-04.02.28:725][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.01.12-04.02.29:619][  0]LogInit: Transaction tracking system initialized
+[2020.01.12-04.02.30:958][  0]BlueprintLog: New page: Editor Load
+[2020.01.12-04.02.34:600][  0]LocalizationService: Localization service is disabled
+[2020.01.12-04.02.37:256][  0]LogConsoleResponse: Display: 
+[2020.01.12-04.02.37:596][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.01.12-04.02.37:596][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/GitProject/UE_TankGame/Game/Content/' took 0.01s
+[2020.01.12-04.02.37:596][  0]LogCook: Display: Mobile HDR setting 1
+[2020.01.12-04.02.37:596][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2020.01.12-04.02.41:487][  0]SourceControl: Source control is disabled
+[2020.01.12-04.02.41:487][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.01.12-04.02.41:488][  0]LightingResults: New page: Lighting Build
+[2020.01.12-04.02.41:647][  0]MapCheck: New page: Map Check
+[2020.01.12-04.02.41:647][  0]LightingResults: New page: Lighting Build
+[2020.01.12-04.02.41:855][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2020.01.12-04.02.41:861][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.01.12-04.02.41:875][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.01.12-04.02.41:958][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 83.005ms to complete.
+[2020.01.12-04.02.41:958][  0]LogFileHelpers: Loading map 'Template_Default' took 0.471
+[2020.01.12-04.02.42:261][  0]LogCollectionManager: Loaded 0 collections in 0.002597 seconds
+[2020.01.12-04.02.42:500][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/GitProject/UE_TankGame/Game/Saved/Collections/' took 0.01s
+[2020.01.12-04.02.42:500][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/GitProject/UE_TankGame/Game/Content/Developers/Administrator/Collections/' took 0.01s
+[2020.01.12-04.02.42:500][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/GitProject/UE_TankGame/Game/Content/Collections/' took 0.01s
+[2020.01.12-04.02.42:500][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2020.01.12-04.02.42:513][  0]LogContentBrowser: Native class hierarchy populated in 0.0112 seconds. Added 2387 classes and 502 folders.
+[2020.01.12-04.02.42:775][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0029 seconds. Added 0 classes and 0 folders.
+[2020.01.12-04.02.42:951][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0017 seconds. Added 0 classes and 0 folders.
+[2020.01.12-04.02.43:171][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0018 seconds. Added 1 classes and 2 folders.
+[2020.01.12-04.02.43:255][  0]LogSlate: Took 0.000259 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.01.12-04.02.43:258][  0]LogSlate: Took 0.000218 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.01.12-04.02.43:269][  0]LogSlate: Took 0.002148 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.01.12-04.02.43:398][  0]LogRenderer: Reallocating scene render targets to support 1012x508 Format 10 NumSamples 1 (Frame:1).
+[2020.01.12-04.02.43:787][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0024 seconds. Added 1 classes and 2 folders.
+[2020.01.12-04.02.43:787][  0]LogLoad: (Engine Initialization) Total time: 48.86 seconds
+[2020.01.12-04.02.43:787][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.01.12-04.02.43:788][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2020.01.12-04.02.43:788][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2020.01.12-04.02.44:144][  0]LogAssetRegistry: Asset discovery search completed in 34.5820 seconds
+[2020.01.12-04.02.44:146][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2020.01.12-04.02.44:146][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000082 seconds (updated 0 objects)
+[2020.01.12-04.02.44:150][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.01.12-04.02.44:205][  0]LogSlate: Took 0.001796 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2020.01.12-04.02.45:156][  3]LogSlate: Took 0.000280 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2020.01.12-04.02.47:789][ 99]LogSlate: Took 0.000165 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2020.01.12-04.02.49:203][100]LogRenderer: Reallocating scene render targets to support 1076x620 Format 10 NumSamples 1 (Frame:1).
+[2020.01.12-04.04.00:929][716]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/tank_fbx_Body" FILE="../../../../../../Documents/GitProject/UE_TankGame/Game/Content/tank_fbx_Body.uasset" SILENT=true
+[2020.01.12-04.04.00:975][716]LogSavePackage: Save=26.08ms
+[2020.01.12-04.04.00:975][716]LogSavePackage: Moving '../../../../../../Documents/GitProject/UE_TankGame/Game/Saved/tank_fbx_Body7308E162448A6F7E5561CFB09304656C.tmp' to '../../../../../../Documents/GitProject/UE_TankGame/Game/Content/tank_fbx_Body.uasset'
+[2020.01.12-04.04.00:995][716]LogSavePackage: Display: Finished SavePackage ../../../../../../Documents/GitProject/UE_TankGame/Game/Content/tank_fbx_Body.uasset
+[2020.01.12-04.04.52:384][541]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/tank_fbx_Turret" FILE="../../../../../../Documents/GitProject/UE_TankGame/Game/Content/tank_fbx_Turret.uasset" SILENT=true
+[2020.01.12-04.04.52:422][541]LogSavePackage: Save=20.62ms
+[2020.01.12-04.04.52:422][541]LogSavePackage: Moving '../../../../../../Documents/GitProject/UE_TankGame/Game/Saved/tank_fbx_TurretFF9928424EC1D03FF0B03E9A16D2C58A.tmp' to '../../../../../../Documents/GitProject/UE_TankGame/Game/Content/tank_fbx_Turret.uasset'
+[2020.01.12-04.04.52:440][541]LogSavePackage: Display: Finished SavePackage ../../../../../../Documents/GitProject/UE_TankGame/Game/Content/tank_fbx_Turret.uasset
+[2020.01.12-04.08.13:401][891]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/tank_fbx_Body" FILE="../../../../../../Documents/GitProject/UE_TankGame/Game/Content/tank_fbx_Body.uasset" SILENT=true
+[2020.01.12-04.08.13:432][891]LogSavePackage: Save=20.25ms
+[2020.01.12-04.08.13:432][891]LogSavePackage: Moving '../../../../../../Documents/GitProject/UE_TankGame/Game/Saved/tank_fbx_Body653BC38547E6BBE259226BB65E6A11FF.tmp' to '../../../../../../Documents/GitProject/UE_TankGame/Game/Content/tank_fbx_Body.uasset'
+[2020.01.12-04.08.13:449][891]LogSavePackage: Display: Finished SavePackage ../../../../../../Documents/GitProject/UE_TankGame/Game/Content/tank_fbx_Body.uasset
+[2020.01.12-04.08.36:196][205]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mesh/tank_fbx_Barrel" FILE="../../../../../../Documents/GitProject/UE_TankGame/Game/Content/Mesh/tank_fbx_Barrel.uasset" SILENT=true
+[2020.01.12-04.08.36:221][205]LogSavePackage: Save=18.55ms
+[2020.01.12-04.08.36:221][205]LogSavePackage: Moving '../../../../../../Documents/GitProject/UE_TankGame/Game/Saved/tank_fbx_BarrelE466ED9D4EC5D63AB51BD38CF96512D7.tmp' to '../../../../../../Documents/GitProject/UE_TankGame/Game/Content/Mesh/tank_fbx_Barrel.uasset'
+[2020.01.12-04.08.36:238][205]LogSavePackage: Display: Finished SavePackage ../../../../../../Documents/GitProject/UE_TankGame/Game/Content/Mesh/tank_fbx_Barrel.uasset
+[2020.01.12-04.08.36:261][205]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mesh/tank_fbx_Body" FILE="../../../../../../Documents/GitProject/UE_TankGame/Game/Content/Mesh/tank_fbx_Body.uasset" SILENT=true
+[2020.01.12-04.08.36:288][205]LogSavePackage: Save=20.84ms
+[2020.01.12-04.08.36:288][205]LogSavePackage: Moving '../../../../../../Documents/GitProject/UE_TankGame/Game/Saved/tank_fbx_Body65E1463B4CB83523037FBDB8E2E6B56C.tmp' to '../../../../../../Documents/GitProject/UE_TankGame/Game/Content/Mesh/tank_fbx_Body.uasset'
+[2020.01.12-04.08.36:305][205]LogSavePackage: Display: Finished SavePackage ../../../../../../Documents/GitProject/UE_TankGame/Game/Content/Mesh/tank_fbx_Body.uasset
+[2020.01.12-04.08.36:327][205]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mesh/tank_fbx_Track" FILE="../../../../../../Documents/GitProject/UE_TankGame/Game/Content/Mesh/tank_fbx_Track.uasset" SILENT=true
+[2020.01.12-04.08.36:353][205]LogSavePackage: Save=19.29ms
+[2020.01.12-04.08.36:353][205]LogSavePackage: Moving '../../../../../../Documents/GitProject/UE_TankGame/Game/Saved/tank_fbx_TrackBB78AA994E2D2DEE64612496E0716AE8.tmp' to '../../../../../../Documents/GitProject/UE_TankGame/Game/Content/Mesh/tank_fbx_Track.uasset'
+[2020.01.12-04.08.36:370][205]LogSavePackage: Display: Finished SavePackage ../../../../../../Documents/GitProject/UE_TankGame/Game/Content/Mesh/tank_fbx_Track.uasset
+[2020.01.12-04.08.36:390][205]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mesh/tank_fbx_Turret" FILE="../../../../../../Documents/GitProject/UE_TankGame/Game/Content/Mesh/tank_fbx_Turret.uasset" SILENT=true
+[2020.01.12-04.08.36:417][205]LogSavePackage: Save=20.09ms
+[2020.01.12-04.08.36:417][205]LogSavePackage: Moving '../../../../../../Documents/GitProject/UE_TankGame/Game/Saved/tank_fbx_Turret8F1CA66140764CB19C466F91C3655E04.tmp' to '../../../../../../Documents/GitProject/UE_TankGame/Game/Content/Mesh/tank_fbx_Turret.uasset'
+[2020.01.12-04.08.36:433][205]LogSavePackage: Display: Finished SavePackage ../../../../../../Documents/GitProject/UE_TankGame/Game/Content/Mesh/tank_fbx_Turret.uasset
+[2020.01.12-04.08.45:555][714]LogLinker: Warning: Can't find file '/Game/Untitled_BuiltData'
+[2020.01.12-04.08.45:555][714]LogLinker: Warning: Can't find file for asset '/Game/Untitled_BuiltData' while loading ../../../../../../Documents/GitProject/UE_TankGame/Game/Content/Untitled.umap.
+[2020.01.12-04.08.45:555][714]LoadErrors: Error: /Game/Untitled : Can't find file for asset. /Game/Untitled_BuiltData
+[2020.01.12-04.08.45:560][714]LogLinker: Warning: Can't find file '/Game/Untitled_BuiltData'
+[2020.01.12-04.08.45:560][714]LogLinker: Warning: Can't find file for asset '/Game/Untitled_BuiltData' while loading ../../../../../../Documents/GitProject/UE_TankGame/Game/Content/Untitled.umap.
+[2020.01.12-04.08.45:564][714]LogLinker: Warning: Can't find file '/Game/Untitled_BuiltData'
+[2020.01.12-04.08.45:564][714]LoadErrors: Failed to load /Game/Untitled_BuiltData.Untitled_BuiltData Referenced by PersistentLevel
+[2020.01.12-04.08.45:565][714]LogLinker: Warning: Can't find file for asset '/Game/Untitled_BuiltData' while loading NULL.
+[2020.01.12-04.08.45:567][714]LogAIModule: Creating AISystem for world Untitled
+[2020.01.12-04.08.48:975][902]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Untitled" FILE="../../../../../../Documents/GitProject/UE_TankGame/Game/Content/Maps/Untitled.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.01.12-04.08.49:033][902]LogSavePackage: Save=35.21ms
+[2020.01.12-04.08.49:033][902]LogSavePackage: Moving '../../../../../../Documents/GitProject/UE_TankGame/Game/Saved/Untitled5A562A5F4A9434D2FBBF7A8B3F1CF862.tmp' to '../../../../../../Documents/GitProject/UE_TankGame/Game/Content/Maps/Untitled.umap'
+[2020.01.12-04.08.49:050][902]LogSavePackage: Display: Finished SavePackage ../../../../../../Documents/GitProject/UE_TankGame/Game/Content/Maps/Untitled.umap
+[2020.01.12-04.08.49:052][902]LogFileHelpers: Saving map 'Untitled' took 0.187
+[2020.01.12-04.18.49:457][479]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.010
+[2020.01.12-04.28.50:123][281]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.009
+[2020.01.12-04.43.07:203][823]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0022 seconds. Added 113 classes and 0 folders.
+[2020.01.12-04.43.07:870][823]LogSlate: Took 0.000200 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.01.12-04.43.11:156][  4]LogSlate: Took 0.001679 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.01.12-04.43.48:130][801]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.020
+[2020.01.12-04.43.48:136][801]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Bluprints/BP_Tank] ([1] browsable assets)...
+[2020.01.12-04.43.48:136][801]OBJ SavePackage: Finished generating thumbnails for package [/Game/Bluprints/BP_Tank]
+[2020.01.12-04.43.48:136][801]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bluprints/BP_Tank" FILE="../../../../../../Documents/GitProject/UE_TankGame/Game/Saved/Autosaves/Game/Bluprints/BP_Tank_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2020.01.12-04.43.48:155][801]LogSavePackage: Save=14.27ms
+[2020.01.12-04.43.48:155][801]LogSavePackage: Moving '../../../../../../Documents/GitProject/UE_TankGame/Game/Saved/BP_Tank_Auto13986897B4E0BDD7A681BA18153C0941E.tmp' to '../../../../../../Documents/GitProject/UE_TankGame/Game/Saved/Autosaves/Game/Bluprints/BP_Tank_Auto1.uasset'
+[2020.01.12-04.43.48:161][801]LogSavePackage: Display: Finished SavePackage ../../../../../../Documents/GitProject/UE_TankGame/Game/Saved/Autosaves/Game/Bluprints/BP_Tank_Auto1.uasset
+[2020.01.12-04.43.48:161][801]LogFileHelpers: Auto-saving content packages took 0.031
+[2020.01.12-04.46.52:999][681]BlueprintLog: New page: Compile BP_Tank
+[2020.01.12-04.47.10:787][489]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mesh/tank_fbx_Body" FILE="../../../../../../Documents/GitProject/UE_TankGame/Game/Content/Mesh/tank_fbx_Body.uasset" SILENT=true
+[2020.01.12-04.47.10:816][489]LogSavePackage: Save=10.37ms
+[2020.01.12-04.47.10:816][489]LogSavePackage: Moving '../../../../../../Documents/GitProject/UE_TankGame/Game/Saved/tank_fbx_BodyBAE6568949D9BD293631B18EAEDF5AD7.tmp' to '../../../../../../Documents/GitProject/UE_TankGame/Game/Content/Mesh/tank_fbx_Body.uasset'
+[2020.01.12-04.47.10:834][489]LogSavePackage: Display: Finished SavePackage ../../../../../../Documents/GitProject/UE_TankGame/Game/Content/Mesh/tank_fbx_Body.uasset
+[2020.01.12-04.47.26:262][336]BlueprintLog: New page: Compile BP_Tank
+[2020.01.12-04.51.12:843][231]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.01.12-04.53.49:483][799]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.020
+[2020.01.12-04.53.49:489][799]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Bluprints/BP_Tank] ([1] browsable assets)...
+[2020.01.12-04.53.49:533][799]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Bluprints/BP_Tank.BP_Tank]
+[2020.01.12-04.53.49:533][799]OBJ SavePackage: Finished generating thumbnails for package [/Game/Bluprints/BP_Tank]
+[2020.01.12-04.53.49:534][799]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bluprints/BP_Tank" FILE="../../../../../../Documents/GitProject/UE_TankGame/Game/Saved/Autosaves/Game/Bluprints/BP_Tank_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2020.01.12-04.53.49:567][799]LogSavePackage: Save=27.86ms
+[2020.01.12-04.53.49:567][799]LogSavePackage: Moving '../../../../../../Documents/GitProject/UE_TankGame/Game/Saved/BP_Tank_Auto2395CE262476AA7D9EE14118CB1C9E727.tmp' to '../../../../../../Documents/GitProject/UE_TankGame/Game/Saved/Autosaves/Game/Bluprints/BP_Tank_Auto2.uasset'
+[2020.01.12-04.53.49:572][799]LogSavePackage: Display: Finished SavePackage ../../../../../../Documents/GitProject/UE_TankGame/Game/Saved/Autosaves/Game/Bluprints/BP_Tank_Auto2.uasset
+[2020.01.12-04.53.49:572][799]LogFileHelpers: Auto-saving content packages took 0.088
+[2020.01.12-05.07.27:271][416]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.01.12-05.07.28:254][473]Cmd: DELETE
+[2020.01.12-05.07.28:254][473]Cmd: ACTOR DELETE
+[2020.01.12-05.07.28:257][473]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.01.12-05.07.28:277][473]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2020.01.12-05.07.30:004][575]LogMaterial: Missing cached shader map for material LayerVisMaterial, compiling. 
+[2020.01.12-05.07.30:040][575]LogMaterial: Missing cached shader map for material SelectBrushMaterial, compiling. 
+[2020.01.12-05.07.30:075][575]LogMaterial: Missing cached shader map for material SelectBrushMaterial, compiling. 
+[2020.01.12-05.07.30:114][575]LogMaterial: Missing cached shader map for material MaskBrushMaterial, compiling. 
+[2020.01.12-05.07.30:150][575]LogMaterial: Missing cached shader map for material LandscapeLayerUsageMaterial, compiling. 
+[2020.01.12-05.07.30:200][575]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2020.01.12-05.07.30:225][575]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2020.01.12-05.07.30:253][575]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2020.01.12-05.07.30:281][575]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2020.01.12-05.07.30:322][575]LogMaterial: Missing cached shader map for material AlphaBrushMaterial, compiling. 
+[2020.01.12-05.07.30:353][575]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2020.01.12-05.07.30:402][575]LogMaterial: Missing cached shader map for material MaskBrushMaterial, compiling. 
+[2020.01.12-05.07.30:440][575]LogTexture: Display: Building textures: Texture2D_2 (G8, 128X128)
+[2020.01.12-05.07.44:989][401]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2020.01.12-05.07.45:026][401]LogMaterial: Missing cached shader map for material WorldGridMaterial, compiling. Is special engine material.
+[2020.01.12-05.08.01:995][725]Cmd: OBJ SAVEPACKAGE PACKAGE="/Temp/Untitled_1" FILE="../../../../../../Documents/GitProject/UE_TankGame/Game/Saved/Autosaves/Temp/Untitled_1_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2020.01.12-05.08.02:359][725]LogSavePackage: Save=363.13ms
+[2020.01.12-05.08.02:359][725]LogSavePackage: Moving '../../../../../../Documents/GitProject/UE_TankGame/Game/Saved/Untitled_1_Auto31DA0E8524BAE71542ED18DADB6CB7621.tmp' to '../../../../../../Documents/GitProject/UE_TankGame/Game/Saved/Autosaves/Temp/Untitled_1_Auto3.umap'
+[2020.01.12-05.08.02:366][725]LogSavePackage: Display: Finished SavePackage ../../../../../../Documents/GitProject/UE_TankGame/Game/Saved/Autosaves/Temp/Untitled_1_Auto3.umap
+[2020.01.12-05.08.02:372][725]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.404
+[2020.01.12-05.08.02:372][725]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.404
+[2020.01.12-05.08.41:247][942]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape)
+[2020.01.12-05.09.09:594][582]LogSlate: Took 0.001705 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.01.12-05.09.37:629][ 46]BlueprintLog: New page: Compile BP_Tank
+[2020.01.12-05.09.38:550][ 74]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bluprints/BP_Tank" FILE="../../../../../../Documents/GitProject/UE_TankGame/Game/Content/Bluprints/BP_Tank.uasset" SILENT=true
+[2020.01.12-05.09.38:595][ 74]LogSavePackage: Save=37.65ms
+[2020.01.12-05.09.38:595][ 74]LogSavePackage: Moving '../../../../../../Documents/GitProject/UE_TankGame/Game/Saved/BP_Tank48831203495850802AEAD69A5A02799E.tmp' to '../../../../../../Documents/GitProject/UE_TankGame/Game/Content/Bluprints/BP_Tank.uasset'
+[2020.01.12-05.09.38:612][ 74]LogSavePackage: Display: Finished SavePackage ../../../../../../Documents/GitProject/UE_TankGame/Game/Content/Bluprints/BP_Tank.uasset
+[2020.01.12-05.10.16:616][268]LogTemp: Repeating last play command: Selected Viewport
+[2020.01.12-05.10.16:674][268]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.12-05.10.16:676][268]PIE: New page: PIE session: Untitled_1 (Jan 12, 2020, 9:10:16 PM)
+[2020.01.12-05.10.16:676][268]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2020.01.12-05.10.16:691][268]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015457s)
+[2020.01.12-05.10.16:692][268]LogAIModule: Creating AISystem for world Untitled_1
+[2020.01.12-05.10.16:693][268]LogPlayLevel: PIE: World Init took: (0.001249s)
+[2020.01.12-05.10.16:693][268]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.017156s)
+[2020.01.12-05.10.16:748][268]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.01.12-05.10.16:799][268]LogInit: FAudioDevice initialized.
+[2020.01.12-05.10.16:849][268]LogLoad: Game class is 'GameModeBase'
+[2020.01.12-05.10.16:856][268]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2020.01.12-13.10.16
+[2020.01.12-05.10.16:859][268]LogWorld: Bringing up level for play took: 0.006742
+[2020.01.12-05.10.17:073][268]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0026 seconds. Added 11 classes and 0 folders.
+[2020.01.12-05.10.17:075][268]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.826
+[2020.01.12-05.10.28:463][897]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.01.12-05.10.31:777][ 89]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.01.12-05.10.33:047][162]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.01.12-05.10.52:663][259]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.01.12-05.10.54:641][375]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.01.12-05.10.55:945][451]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.01.12-05.10.58:329][590]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.01.12-05.11.01:566][779]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.01.12-05.11.08:529][175]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.01.12-05.11.09:194][212]LogTemp: Repeating last play command: Selected Viewport
+[2020.01.12-05.11.09:212][212]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.12-05.11.09:213][212]PIE: New page: PIE session: Untitled_1 (Jan 12, 2020, 9:11:09 PM)
+[2020.01.12-05.11.09:213][212]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2020.01.12-05.11.09:228][212]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015122s)
+[2020.01.12-05.11.09:229][212]LogAIModule: Creating AISystem for world Untitled_1
+[2020.01.12-05.11.09:229][212]LogPlayLevel: PIE: World Init took: (0.000942s)
+[2020.01.12-05.11.09:229][212]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.016412s)
+[2020.01.12-05.11.09:279][212]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.01.12-05.11.09:333][212]LogInit: FAudioDevice initialized.
+[2020.01.12-05.11.09:368][212]LogLoad: Game class is 'GameModeBase'
+[2020.01.12-05.11.09:374][212]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2020.01.12-13.11.09
+[2020.01.12-05.11.09:375][212]LogWorld: Bringing up level for play took: 0.005603
+[2020.01.12-05.11.09:376][212]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 1.127
+[2020.01.12-05.18.13:386][594]Cmd: OBJ SAVEPACKAGE PACKAGE="/Temp/Untitled_1" FILE="../../../../../../Documents/GitProject/UE_TankGame/Game/Saved/Autosaves/Temp/Untitled_1_Auto4.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2020.01.12-05.18.13:451][594]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2020.01.12-05.18.13:750][594]LogSavePackage: Save=363.40ms
+[2020.01.12-05.18.13:751][594]LogSavePackage: Moving '../../../../../../Documents/GitProject/UE_TankGame/Game/Saved/Untitled_1_Auto4E256DE8D48BC5584B8A92E858F6C83AD.tmp' to '../../../../../../Documents/GitProject/UE_TankGame/Game/Saved/Autosaves/Temp/Untitled_1_Auto4.umap'
+[2020.01.12-05.18.13:758][594]LogSavePackage: Display: Finished SavePackage ../../../../../../Documents/GitProject/UE_TankGame/Game/Saved/Autosaves/Temp/Untitled_1_Auto4.umap
+[2020.01.12-05.18.13:768][594]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.408
+[2020.01.12-05.18.13:768][594]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.408
+[2020.01.12-06.45.59:657][736]LogTemp: Repeating last play command: Selected Viewport
+[2020.01.12-06.45.59:671][736]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.12-06.45.59:671][736]PIE: New page: PIE session: Untitled_1 (Jan 12, 2020, 10:45:59 PM)
+[2020.01.12-06.45.59:672][736]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2020.01.12-06.45.59:686][736]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014011s)
+[2020.01.12-06.45.59:687][736]LogAIModule: Creating AISystem for world Untitled_1
+[2020.01.12-06.45.59:687][736]LogPlayLevel: PIE: World Init took: (0.001749s)
+[2020.01.12-06.45.59:688][736]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.016135s)
+[2020.01.12-06.45.59:727][736]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.01.12-06.45.59:766][736]LogInit: FAudioDevice initialized.
+[2020.01.12-06.45.59:795][736]LogLoad: Game class is 'GameModeBase'
+[2020.01.12-06.45.59:800][736]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2020.01.12-14.45.59
+[2020.01.12-06.45.59:800][736]LogWorld: Bringing up level for play took: 0.003295
+[2020.01.12-06.45.59:801][736]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.447
+[2020.01.12-06.46.21:723][969]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Game
+[2020.01.12-06.46.21:723][969]LogTemp: CWD: D:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2020.01.12-06.46.21:724][969]LogTemp: Initial Dir: D:\Program Files\Epic Games\UE_4.17
+[2020.01.12-06.46.21:724][969]LogTemp: Env CWD: D:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2020.01.12-06.46.21:739][970]LogTemp: BranchPath = SKY-20180922ULI/D/Program Files/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = SKY-20180922ULI/D/Program Files/Epic Games/UE_4.17/Engine/Binaries
+[2020.01.12-06.46.21:757][970]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Administrator\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2020.01.12-06.46.46:121][371]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Game
+[2020.01.12-06.46.46:121][371]LogTemp: CWD: D:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2020.01.12-06.46.46:121][371]LogTemp: Initial Dir: D:\Program Files\Epic Games\UE_4.17
+[2020.01.12-06.46.46:121][371]LogTemp: Env CWD: D:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2020.01.12-06.46.46:125][371]LogTemp: BranchPath = SKY-20180922ULI/D/Program Files/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = SKY-20180922ULI/D/Program Files/Epic Games/UE_4.17/Engine/Binaries
+[2020.01.12-06.46.46:153][372]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Administrator\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2020.01.12-06.47.05:407][486]LogWorld: Changing Feature Level (Enum) from 3 to 1
+[2020.01.12-06.47.05:468][486]LogTexture: Display: Building textures: Texture2D_1 (BGRA8, 64X64)
+[2020.01.12-06.47.05:476][486]LogTexture: Display: Building textures: Texture2D_1 (BGRA8, 64X64)
+[2020.01.12-06.47.05:484][486]LogTexture: Display: Building textures: Texture2D_2 (BGRA8, 64X64)
+[2020.01.12-06.47.05:492][486]LogTexture: Display: Building textures: Texture2D_2 (BGRA8, 64X64)
+[2020.01.12-06.47.05:500][486]LogTexture: Display: Building textures: Texture2D_3 (BGRA8, 64X64)
+[2020.01.12-06.47.05:508][486]LogTexture: Display: Building textures: Texture2D_3 (BGRA8, 64X64)
+[2020.01.12-06.47.05:515][486]LogTexture: Display: Building textures: Texture2D_4 (BGRA8, 64X64)
+[2020.01.12-06.47.05:524][486]LogTexture: Display: Building textures: Texture2D_4 (BGRA8, 64X64)
+[2020.01.12-06.47.05:531][486]LogTexture: Display: Building textures: Texture2D_5 (BGRA8, 64X64)
+[2020.01.12-06.47.05:538][486]LogTexture: Display: Building textures: Texture2D_5 (BGRA8, 64X64)
+[2020.01.12-06.47.05:545][486]LogTexture: Display: Building textures: Texture2D_6 (BGRA8, 64X64)
+[2020.01.12-06.47.05:553][486]LogTexture: Display: Building textures: Texture2D_6 (BGRA8, 64X64)
+[2020.01.12-06.47.05:560][486]LogTexture: Display: Building textures: Texture2D_7 (BGRA8, 64X64)
+[2020.01.12-06.47.05:568][486]LogTexture: Display: Building textures: Texture2D_7 (BGRA8, 64X64)
+[2020.01.12-06.47.05:575][486]LogTexture: Display: Building textures: Texture2D_8 (BGRA8, 64X64)
+[2020.01.12-06.47.05:583][486]LogTexture: Display: Building textures: Texture2D_8 (BGRA8, 64X64)
+[2020.01.12-06.47.05:590][486]LogTexture: Display: Building textures: Texture2D_9 (BGRA8, 64X64)
+[2020.01.12-06.47.05:598][486]LogTexture: Display: Building textures: Texture2D_9 (BGRA8, 64X64)
+[2020.01.12-06.47.05:605][486]LogTexture: Display: Building textures: Texture2D_10 (BGRA8, 64X64)
+[2020.01.12-06.47.05:613][486]LogTexture: Display: Building textures: Texture2D_10 (BGRA8, 64X64)
+[2020.01.12-06.47.05:620][486]LogTexture: Display: Building textures: Texture2D_11 (BGRA8, 64X64)
+[2020.01.12-06.47.05:627][486]LogTexture: Display: Building textures: Texture2D_11 (BGRA8, 64X64)
+[2020.01.12-06.47.05:635][486]LogTexture: Display: Building textures: Texture2D_12 (BGRA8, 64X64)
+[2020.01.12-06.47.05:643][486]LogTexture: Display: Building textures: Texture2D_12 (BGRA8, 64X64)
+[2020.01.12-06.47.05:650][486]LogTexture: Display: Building textures: Texture2D_13 (BGRA8, 64X64)
+[2020.01.12-06.47.05:658][486]LogTexture: Display: Building textures: Texture2D_13 (BGRA8, 64X64)
+[2020.01.12-06.47.05:665][486]LogTexture: Display: Building textures: Texture2D_14 (BGRA8, 64X64)
+[2020.01.12-06.47.05:673][486]LogTexture: Display: Building textures: Texture2D_14 (BGRA8, 64X64)
+[2020.01.12-06.47.05:680][486]LogTexture: Display: Building textures: Texture2D_15 (BGRA8, 64X64)
+[2020.01.12-06.47.05:688][486]LogTexture: Display: Building textures: Texture2D_15 (BGRA8, 64X64)
+[2020.01.12-06.47.05:695][486]LogTexture: Display: Building textures: Texture2D_16 (BGRA8, 64X64)
+[2020.01.12-06.47.05:703][486]LogTexture: Display: Building textures: Texture2D_16 (BGRA8, 64X64)
+[2020.01.12-06.47.05:710][486]LogTexture: Display: Building textures: Texture2D_17 (BGRA8, 64X64)
+[2020.01.12-06.47.05:719][486]LogTexture: Display: Building textures: Texture2D_17 (BGRA8, 64X64)
+[2020.01.12-06.47.05:727][486]LogTexture: Display: Building textures: Texture2D_18 (BGRA8, 64X64)
+[2020.01.12-06.47.05:736][486]LogTexture: Display: Building textures: Texture2D_18 (BGRA8, 64X64)
+[2020.01.12-06.47.05:742][486]LogTexture: Display: Building textures: Texture2D_19 (BGRA8, 64X64)
+[2020.01.12-06.47.05:751][486]LogTexture: Display: Building textures: Texture2D_19 (BGRA8, 64X64)
+[2020.01.12-06.47.05:759][486]LogTexture: Display: Building textures: Texture2D_20 (BGRA8, 64X64)
+[2020.01.12-06.47.05:767][486]LogTexture: Display: Building textures: Texture2D_20 (BGRA8, 64X64)
+[2020.01.12-06.47.05:775][486]LogTexture: Display: Building textures: Texture2D_21 (BGRA8, 64X64)
+[2020.01.12-06.47.05:785][486]LogTexture: Display: Building textures: Texture2D_21 (BGRA8, 64X64)
+[2020.01.12-06.47.05:805][486]LogTexture: Display: Building textures: Texture2D_22 (BGRA8, 64X64)
+[2020.01.12-06.47.05:813][486]LogTexture: Display: Building textures: Texture2D_22 (BGRA8, 64X64)
+[2020.01.12-06.47.05:820][486]LogTexture: Display: Building textures: Texture2D_23 (BGRA8, 64X64)
+[2020.01.12-06.47.05:828][486]LogTexture: Display: Building textures: Texture2D_23 (BGRA8, 64X64)
+[2020.01.12-06.47.05:835][486]LogTexture: Display: Building textures: Texture2D_24 (BGRA8, 64X64)
+[2020.01.12-06.47.05:844][486]LogTexture: Display: Building textures: Texture2D_24 (BGRA8, 64X64)
+[2020.01.12-06.47.05:850][486]LogTexture: Display: Building textures: Texture2D_25 (BGRA8, 64X64)
+[2020.01.12-06.47.05:858][486]LogTexture: Display: Building textures: Texture2D_25 (BGRA8, 64X64)
+[2020.01.12-06.47.05:867][486]LogTexture: Display: Building textures: Texture2D_26 (BGRA8, 64X64)
+[2020.01.12-06.47.05:875][486]LogTexture: Display: Building textures: Texture2D_26 (BGRA8, 64X64)
+[2020.01.12-06.47.05:896][486]LogTexture: Display: Building textures: Texture2D_27 (BGRA8, 64X64)
+[2020.01.12-06.47.05:904][486]LogTexture: Display: Building textures: Texture2D_27 (BGRA8, 64X64)
+[2020.01.12-06.47.05:911][486]LogTexture: Display: Building textures: Texture2D_28 (BGRA8, 64X64)
+[2020.01.12-06.47.05:924][486]LogTexture: Display: Building textures: Texture2D_28 (BGRA8, 64X64)
+[2020.01.12-06.47.05:932][486]LogTexture: Display: Building textures: Texture2D_29 (BGRA8, 64X64)
+[2020.01.12-06.47.05:940][486]LogTexture: Display: Building textures: Texture2D_29 (BGRA8, 64X64)
+[2020.01.12-06.47.05:947][486]LogTexture: Display: Building textures: Texture2D_30 (BGRA8, 64X64)
+[2020.01.12-06.47.05:957][486]LogTexture: Display: Building textures: Texture2D_30 (BGRA8, 64X64)
+[2020.01.12-06.47.05:964][486]LogTexture: Display: Building textures: Texture2D_31 (BGRA8, 64X64)
+[2020.01.12-06.47.05:972][486]LogTexture: Display: Building textures: Texture2D_31 (BGRA8, 64X64)
+[2020.01.12-06.47.05:980][486]LogTexture: Display: Building textures: Texture2D_32 (BGRA8, 64X64)
+[2020.01.12-06.47.05:988][486]LogTexture: Display: Building textures: Texture2D_32 (BGRA8, 64X64)
+[2020.01.12-06.47.05:994][486]LogTexture: Display: Building textures: Texture2D_33 (BGRA8, 64X64)
+[2020.01.12-06.47.06:004][486]LogTexture: Display: Building textures: Texture2D_33 (BGRA8, 64X64)
+[2020.01.12-06.47.06:011][486]LogTexture: Display: Building textures: Texture2D_34 (BGRA8, 64X64)
+[2020.01.12-06.47.06:019][486]LogTexture: Display: Building textures: Texture2D_34 (BGRA8, 64X64)
+[2020.01.12-06.47.06:027][486]LogTexture: Display: Building textures: Texture2D_35 (BGRA8, 64X64)
+[2020.01.12-06.47.06:035][486]LogTexture: Display: Building textures: Texture2D_35 (BGRA8, 64X64)
+[2020.01.12-06.47.06:043][486]LogTexture: Display: Building textures: Texture2D_36 (BGRA8, 64X64)
+[2020.01.12-06.47.06:051][486]LogTexture: Display: Building textures: Texture2D_36 (BGRA8, 64X64)
+[2020.01.12-06.47.06:059][486]LogTexture: Display: Building textures: Texture2D_37 (BGRA8, 64X64)
+[2020.01.12-06.47.06:067][486]LogTexture: Display: Building textures: Texture2D_37 (BGRA8, 64X64)
+[2020.01.12-06.47.06:078][486]LogTexture: Display: Building textures: Texture2D_38 (BGRA8, 64X64)
+[2020.01.12-06.47.06:088][486]LogTexture: Display: Building textures: Texture2D_38 (BGRA8, 64X64)
+[2020.01.12-06.47.06:095][486]LogTexture: Display: Building textures: Texture2D_39 (BGRA8, 64X64)
+[2020.01.12-06.47.06:105][486]LogTexture: Display: Building textures: Texture2D_39 (BGRA8, 64X64)
+[2020.01.12-06.47.06:112][486]LogTexture: Display: Building textures: Texture2D_40 (BGRA8, 64X64)
+[2020.01.12-06.47.06:121][486]LogTexture: Display: Building textures: Texture2D_40 (BGRA8, 64X64)
+[2020.01.12-06.47.06:128][486]LogTexture: Display: Building textures: Texture2D_41 (BGRA8, 64X64)
+[2020.01.12-06.47.06:137][486]LogTexture: Display: Building textures: Texture2D_41 (BGRA8, 64X64)
+[2020.01.12-06.47.06:144][486]LogTexture: Display: Building textures: Texture2D_42 (BGRA8, 64X64)
+[2020.01.12-06.47.06:152][486]LogTexture: Display: Building textures: Texture2D_42 (BGRA8, 64X64)
+[2020.01.12-06.47.06:160][486]LogTexture: Display: Building textures: Texture2D_43 (BGRA8, 64X64)
+[2020.01.12-06.47.06:168][486]LogTexture: Display: Building textures: Texture2D_43 (BGRA8, 64X64)
+[2020.01.12-06.47.06:183][486]LogTexture: Display: Building textures: Texture2D_44 (BGRA8, 64X64)
+[2020.01.12-06.47.06:191][486]LogTexture: Display: Building textures: Texture2D_44 (BGRA8, 64X64)
+[2020.01.12-06.47.06:199][486]LogTexture: Display: Building textures: Texture2D_45 (BGRA8, 64X64)
+[2020.01.12-06.47.06:206][486]LogTexture: Display: Building textures: Texture2D_45 (BGRA8, 64X64)
+[2020.01.12-06.47.06:217][486]LogTexture: Display: Building textures: Texture2D_46 (BGRA8, 64X64)
+[2020.01.12-06.47.06:225][486]LogTexture: Display: Building textures: Texture2D_46 (BGRA8, 64X64)
+[2020.01.12-06.47.06:232][486]LogTexture: Display: Building textures: Texture2D_47 (BGRA8, 64X64)
+[2020.01.12-06.47.06:242][486]LogTexture: Display: Building textures: Texture2D_47 (BGRA8, 64X64)
+[2020.01.12-06.47.06:250][486]LogTexture: Display: Building textures: Texture2D_48 (BGRA8, 64X64)
+[2020.01.12-06.47.06:258][486]LogTexture: Display: Building textures: Texture2D_48 (BGRA8, 64X64)
+[2020.01.12-06.47.06:264][486]LogTexture: Display: Building textures: Texture2D_49 (BGRA8, 64X64)
+[2020.01.12-06.47.06:274][486]LogTexture: Display: Building textures: Texture2D_49 (BGRA8, 64X64)
+[2020.01.12-06.47.06:281][486]LogTexture: Display: Building textures: Texture2D_50 (BGRA8, 64X64)
+[2020.01.12-06.47.06:290][486]LogTexture: Display: Building textures: Texture2D_50 (BGRA8, 64X64)
+[2020.01.12-06.47.06:297][486]LogTexture: Display: Building textures: Texture2D_51 (BGRA8, 64X64)
+[2020.01.12-06.47.06:306][486]LogTexture: Display: Building textures: Texture2D_51 (BGRA8, 64X64)
+[2020.01.12-06.47.06:313][486]LogTexture: Display: Building textures: Texture2D_52 (BGRA8, 64X64)
+[2020.01.12-06.47.06:322][486]LogTexture: Display: Building textures: Texture2D_52 (BGRA8, 64X64)
+[2020.01.12-06.47.06:329][486]LogTexture: Display: Building textures: Texture2D_53 (BGRA8, 64X64)
+[2020.01.12-06.47.06:337][486]LogTexture: Display: Building textures: Texture2D_53 (BGRA8, 64X64)
+[2020.01.12-06.47.06:344][486]LogTexture: Display: Building textures: Texture2D_54 (BGRA8, 64X64)
+[2020.01.12-06.47.06:354][486]LogTexture: Display: Building textures: Texture2D_54 (BGRA8, 64X64)
+[2020.01.12-06.47.06:362][486]LogTexture: Display: Building textures: Texture2D_55 (BGRA8, 64X64)
+[2020.01.12-06.47.06:369][486]LogTexture: Display: Building textures: Texture2D_55 (BGRA8, 64X64)
+[2020.01.12-06.47.06:376][486]LogTexture: Display: Building textures: Texture2D_56 (BGRA8, 64X64)
+[2020.01.12-06.47.06:385][486]LogTexture: Display: Building textures: Texture2D_56 (BGRA8, 64X64)
+[2020.01.12-06.47.06:392][486]LogTexture: Display: Building textures: Texture2D_57 (BGRA8, 64X64)
+[2020.01.12-06.47.06:401][486]LogTexture: Display: Building textures: Texture2D_57 (BGRA8, 64X64)
+[2020.01.12-06.47.06:407][486]LogTexture: Display: Building textures: Texture2D_58 (BGRA8, 64X64)
+[2020.01.12-06.47.06:416][486]LogTexture: Display: Building textures: Texture2D_58 (BGRA8, 64X64)
+[2020.01.12-06.47.06:423][486]LogTexture: Display: Building textures: Texture2D_59 (BGRA8, 64X64)
+[2020.01.12-06.47.06:431][486]LogTexture: Display: Building textures: Texture2D_59 (BGRA8, 64X64)
+[2020.01.12-06.47.06:438][486]LogTexture: Display: Building textures: Texture2D_60 (BGRA8, 64X64)
+[2020.01.12-06.47.06:448][486]LogTexture: Display: Building textures: Texture2D_60 (BGRA8, 64X64)
+[2020.01.12-06.47.06:455][486]LogTexture: Display: Building textures: Texture2D_61 (BGRA8, 64X64)
+[2020.01.12-06.47.06:464][486]LogTexture: Display: Building textures: Texture2D_61 (BGRA8, 64X64)
+[2020.01.12-06.47.06:472][486]LogTexture: Display: Building textures: Texture2D_62 (BGRA8, 64X64)
+[2020.01.12-06.47.06:481][486]LogTexture: Display: Building textures: Texture2D_62 (BGRA8, 64X64)
+[2020.01.12-06.47.06:488][486]LogTexture: Display: Building textures: Texture2D_63 (BGRA8, 64X64)
+[2020.01.12-06.47.06:496][486]LogTexture: Display: Building textures: Texture2D_63 (BGRA8, 64X64)
+[2020.01.12-06.47.06:502][486]LogTexture: Display: Building textures: Texture2D_64 (BGRA8, 64X64)
+[2020.01.12-06.47.06:511][486]LogTexture: Display: Building textures: Texture2D_64 (BGRA8, 64X64)
+[2020.01.12-06.47.06:532][486]LogMaterial: Missing cached shader map for material SnapGridMaterial, compiling. 
+[2020.01.12-06.47.06:563][486]LogMaterial: Missing cached shader map for material WorldGridMaterial, compiling. Is special engine material.
+[2020.01.12-06.48.11:097][486]LogMaterial: Missing cached shader map for material DefaultDeferredDecalMaterial, compiling. 
+[2020.01.12-06.48.22:991][486]LogMaterial: Missing cached shader map for material DefaultLightFunctionMaterial, compiling. 
+[2020.01.12-06.48.23:234][486]LogMaterial: Missing cached shader map for material DefaultPostProcessMaterial, compiling. 
+[2020.01.12-06.48.23:871][486]LogMaterial: Missing cached shader map for material TransformGizmoMaterial, compiling. 
+[2020.01.12-06.48.23:881][486]LogMaterial: Missing cached shader map for material TranslucentTransformGizmoMaterial, compiling. 
+[2020.01.12-06.48.23:894][486]LogMaterial: Missing cached shader map for material Main, compiling. 
+[2020.01.12-06.48.23:916][486]LogMaterial: Missing cached shader map for material Xray, compiling. 
+[2020.01.12-06.48.23:965][486]LogMaterial: Missing cached shader map for material CineMat, compiling. 
+[2020.01.12-06.48.24:078][486]LogMaterial: Missing cached shader map for material MatineeCam_mat, compiling. 
+[2020.01.12-06.48.24:147][486]LogMaterial: Missing cached shader map for material M_SimpleOpaque, compiling. 
+[2020.01.12-06.48.24:209][486]LogMaterial: Missing cached shader map for material M_SimpleTranslucent, compiling. 
+[2020.01.12-06.48.24:270][486]LogMaterial: Missing cached shader map for material Widget3DPassThrough, compiling. 
+[2020.01.12-06.48.24:288][486]LogMaterial: Missing cached shader map for material SkySphereMaterial, compiling. 
+[2020.01.12-06.48.24:305][486]LogMaterial: Missing cached shader map for material FloorPlaneMaterial, compiling. 
+[2020.01.12-06.48.24:408][486]LogMaterial: Missing cached shader map for material LandscapeGizmo_Mat, compiling. 
+[2020.01.12-06.48.24:431][486]LogMaterial: Missing cached shader map for material LandscapeGizmoHeight_Mat, compiling. 
+[2020.01.12-06.48.24:529][486]LogMaterial: Missing cached shader map for material SplineEditorMeshMat, compiling. 
+[2020.01.12-06.48.24:556][486]LogMaterial: Missing cached shader map for material HelpActorMaterial, compiling. 
+[2020.01.12-06.48.24:639][486]LogMaterial: Missing cached shader map for material DefaultTextMaterialOpaque, compiling. 
+[2020.01.12-06.48.24:714][486]LogMaterial: Missing cached shader map for material GearVRControllerMaterial, compiling. 
+[2020.01.12-06.48.24:768][486]LogMaterial: Missing cached shader map for material VRTextMaterial, compiling. 
+[2020.01.12-06.48.24:787][486]LogMaterial: Missing cached shader map for material GridMaterial, compiling. 
+[2020.01.12-06.48.24:806][486]LogMaterial: Missing cached shader map for material GridPostProcess, compiling. 
+[2020.01.12-06.48.24:824][486]LogMaterial: Missing cached shader map for material OculusControllerMaterial, compiling. 
+[2020.01.12-06.48.24:883][486]LogMaterial: Missing cached shader map for material VivePreControllerMaterial, compiling. 
+[2020.01.12-06.48.24:963][486]LogMaterial: Missing cached shader map for material LaserPointerMaterial, compiling. 
+[2020.01.12-06.48.24:986][486]LogMaterial: Missing cached shader map for material TeleportDirectionMaterial, compiling. 
+[2020.01.12-06.48.25:078][486]LogMaterial: Missing cached shader map for material GenericHMDMaterial, compiling. 
+[2020.01.12-06.48.25:133][486]LogMaterial: Missing cached shader map for material M_ContentWindow, compiling. 
+[2020.01.12-06.48.25:199][486]LogMaterial: Missing cached shader map for material KeyDiskMaterial, compiling. 
+[2020.01.12-06.48.25:217][486]LogMaterial: Missing cached shader map for material ArrowMaterial, compiling. 
+[2020.01.12-06.48.25:284][486]LogMaterial: Missing cached shader map for material FlattenHeightMat, compiling. 
+[2020.01.12-06.48.25:305][486]LogMaterial: Missing cached shader map for material LineMaterial, compiling. 
+[2020.01.12-06.48.25:316][486]LogMaterial: Missing cached shader map for material DefaultSpriteMaterial, compiling. 
+[2020.01.12-06.48.25:339][486]LogMaterial: Missing cached shader map for material DefaultMaterial, compiling. 
+[2020.01.12-06.48.25:656][486]LogMaterial: Missing cached shader map for material BaseColor, compiling. 
+[2020.01.12-06.48.25:671][486]LogMaterial: Missing cached shader map for material CustomDepth, compiling. 
+[2020.01.12-06.48.25:691][486]LogMaterial: Missing cached shader map for material CustomStencil, compiling. 
+[2020.01.12-06.48.25:716][486]LogMaterial: Missing cached shader map for material FinalImage, compiling. 
+[2020.01.12-06.48.25:744][486]LogMaterial: Missing cached shader map for material LightingModel, compiling. 
+[2020.01.12-06.48.25:756][486]LogMaterial: Missing cached shader map for material MaterialAO, compiling. 
+[2020.01.12-06.48.25:776][486]LogMaterial: Missing cached shader map for material Metallic, compiling. 
+[2020.01.12-06.48.25:791][486]LogMaterial: Missing cached shader map for material Opacity, compiling. 
+[2020.01.12-06.48.25:803][486]LogMaterial: Missing cached shader map for material Roughness, compiling. 
+[2020.01.12-06.48.25:816][486]LogMaterial: Missing cached shader map for material SceneColor, compiling. 
+[2020.01.12-06.48.25:833][486]LogMaterial: Missing cached shader map for material SceneDepth, compiling. 
+[2020.01.12-06.48.25:847][486]LogMaterial: Missing cached shader map for material SeparateTranslucencyRGB, compiling. 
+[2020.01.12-06.48.25:860][486]LogMaterial: Missing cached shader map for material SeparateTranslucencyA, compiling. 
+[2020.01.12-06.48.25:875][486]LogMaterial: Missing cached shader map for material Specular, compiling. 
+[2020.01.12-06.48.25:890][486]LogMaterial: Missing cached shader map for material SubsurfaceColor, compiling. 
+[2020.01.12-06.48.25:904][486]LogMaterial: Missing cached shader map for material WorldNormal, compiling. 
+[2020.01.12-06.48.25:918][486]LogMaterial: Missing cached shader map for material AmbientOcclusion, compiling. 
+[2020.01.12-06.48.25:934][486]LogMaterial: Missing cached shader map for material CustomDepthWorldUnits, compiling. 
+[2020.01.12-06.48.25:949][486]LogMaterial: Missing cached shader map for material SceneDepthWorldUnits, compiling. 
+[2020.01.12-06.48.25:974][486]LogMaterial: Missing cached shader map for material PreTonemapHDRColor, compiling. 
+[2020.01.12-06.48.25:992][486]LogMaterial: Missing cached shader map for material PostTonemapHDRColor, compiling. 
+[2020.01.12-06.48.26:006][486]LogMaterial: Missing cached shader map for material HighResScreenshot, compiling. 
+[2020.01.12-06.48.26:026][486]LogMaterial: Missing cached shader map for material HighResScreenshotMask, compiling. 
+[2020.01.12-06.48.26:044][486]LogMaterial: Missing cached shader map for material HighResScreenshotCaptureRegion, compiling. 
+[2020.01.12-06.48.26:062][486]LogMaterial: Missing cached shader map for material WireframeMaterial, compiling. Is special engine material.
+[2020.01.12-06.48.26:284][486]LogMaterial: Missing cached shader map for material LevelColorationLitMaterial, compiling. Is special engine material.
+[2020.01.12-06.48.27:257][486]LogMaterial: Missing cached shader map for material LevelColorationUnlitMaterial, compiling. Is special engine material.
+[2020.01.12-06.48.27:389][486]LogMaterial: Missing cached shader map for material MAT_LevelColorationLitLightmapUV, compiling. Is special engine material.
+[2020.01.12-06.48.28:401][486]LogMaterial: Missing cached shader map for material ShadedLevelColorationLitMaterial, compiling. Is special engine material.
+[2020.01.12-06.48.29:434][486]LogMaterial: Missing cached shader map for material ShadedLevelColorationUnlitMateri, compiling. Is special engine material.
+[2020.01.12-06.48.29:590][486]LogMaterial: Missing cached shader map for material VertexColorMaterial, compiling. 
+[2020.01.12-06.48.29:792][486]LogMaterial: Missing cached shader map for material VertexColorViewMode_ColorOnly, compiling. 
+[2020.01.12-06.48.29:813][486]LogMaterial: Missing cached shader map for material VertexColorViewMode_AlphaAsColor, compiling. 
+[2020.01.12-06.48.29:844][486]LogMaterial: Missing cached shader map for material VertexColorViewMode_RedOnly, compiling. 
+[2020.01.12-06.48.29:873][486]LogMaterial: Missing cached shader map for material VertexColorViewMode_GreenOnly, compiling. 
+[2020.01.12-06.48.29:901][486]LogMaterial: Missing cached shader map for material VertexColorViewMode_BlueOnly, compiling. 
+[2020.01.12-06.48.29:926][486]LogMaterial: Missing cached shader map for material RemoveSurfaceMaterial, compiling. 
+[2020.01.12-06.48.29:939][486]LogMaterial: Missing cached shader map for material DebugMeshMaterial, compiling. 
+[2020.01.12-06.48.29:962][486]LogMaterial: Missing cached shader map for material M_InvalidLightmapSettings, compiling. 
+[2020.01.12-06.48.30:078][486]LogMaterial: Missing cached shader map for material GizmoMaterial, compiling. 
+[2020.01.12-06.48.30:094][486]LogMaterial: Missing cached shader map for material PhAT_JointLimitMaterial, compiling. 
+[2020.01.12-06.48.30:114][486]LogMaterial: Missing cached shader map for material GeomMaterial, compiling. 
+[2020.01.12-06.48.30:132][486]LogMaterial: Missing cached shader map for material EditorBrushMaterial, compiling. 
+[2020.01.12-06.48.30:155][486]LogMaterial: Missing cached shader map for material BoneWeightMaterial, compiling. 
+[2020.01.12-06.48.30:417][486]LogMaterial: Missing cached shader map for material ClothMaterial, compiling. 
+[2020.01.12-06.48.30:436][486]LogMaterial: Missing cached shader map for material ClothMaterial_WF, compiling. 
+[2020.01.12-06.48.30:462][486]LogMaterial: Missing cached shader map for material DebugEditorMaterial, compiling. 
+[2020.01.12-06.48.30:479][486]LogMaterial: Missing cached shader map for material PreviewShadowIndicatorMaterial, compiling. 
+[2020.01.12-06.48.30:492][486]LogMaterial: Missing cached shader map for material Cross_Mat, compiling. 
+[2020.01.12-06.48.30:516][486]LogMaterial: Missing cached shader map for material PhAT_BoneSelectedMaterial, compiling. 
+[2020.01.12-06.48.30:533][486]LogMaterial: Missing cached shader map for material PhAT_ElemSelectedMaterial, compiling. 
+[2020.01.12-06.48.30:552][486]LogMaterial: Missing cached shader map for material PhAT_NoCollisionMaterial, compiling. 
+[2020.01.12-06.48.30:570][486]LogMaterial: Missing cached shader map for material PhAT_UnselectedMaterial, compiling. 
+[2020.01.12-06.48.30:591][486]LogMaterial: Missing cached shader map for material Tick_Mat, compiling. 
+[2020.01.12-06.48.30:613][486]LogMaterial: Missing cached shader map for material WidgetGridVertexColorMaterial_Ma, compiling. 
+[2020.01.12-06.48.30:635][486]LogMaterial: Missing cached shader map for material WidgetMaterial, compiling. 
+[2020.01.12-06.48.30:671][486]LogMaterial: Missing cached shader map for material WidgetMaterial_Current, compiling. 
+[2020.01.12-06.48.30:689][486]LogMaterial: Missing cached shader map for material WidgetMaterial_X, compiling. 
+[2020.01.12-06.48.30:705][486]LogMaterial: Missing cached shader map for material WidgetMaterial_Y, compiling. 
+[2020.01.12-06.48.30:726][486]LogMaterial: Missing cached shader map for material WidgetMaterial_Z, compiling. 
+[2020.01.12-06.48.30:742][486]LogMaterial: Missing cached shader map for material WidgetVertexColorMaterial, compiling. 
+[2020.01.12-06.48.30:764][486]LogMaterial: Missing cached shader map for material LevelGridMaterial, compiling. 
+[2020.01.12-06.48.30:787][486]LogMaterial: Missing cached shader map for material BlinkingCaret, compiling. 
+[2020.01.12-06.48.30:803][486]LogMaterial: Missing cached shader map for material M_StreamingPause, compiling. 
+[2020.01.12-06.48.30:821][486]LogMaterial: Missing cached shader map for material M_Sky_Panning_Clouds2, compiling. 
+[2020.01.12-06.48.30:834][486]LogMaterial: Missing cached shader map for material LevelGridMaterial2, compiling. 
+[2020.01.12-06.48.30:856][486]LogMaterial: Missing cached shader map for material M_SkyBox, compiling. 
+[2020.01.12-06.48.30:872][486]LogMaterial: Missing cached shader map for material GridMaterial, compiling. 
+[2020.01.12-06.48.30:943][486]LogMaterial: Missing cached shader map for material PersonaFloorMat, compiling. 
+[2020.01.12-06.48.31:047][486]LogMaterial: Missing cached shader map for material LayerVisMaterial, compiling. 
+[2020.01.12-06.48.31:058][486]LogMaterial: Missing cached shader map for material SelectBrushMaterial, compiling. 
+[2020.01.12-06.48.31:074][486]LogMaterial: Missing cached shader map for material MaskBrushMaterial, compiling. 
+[2020.01.12-06.48.31:093][486]LogMaterial: Missing cached shader map for material LandscapeLayerUsageMaterial, compiling. 
+[2020.01.12-06.48.31:106][486]LogMaterial: Missing cached shader map for material MirrorPlaneMaterial, compiling. 
+[2020.01.12-06.48.31:127][486]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2020.01.12-06.48.31:148][486]LogMaterial: Missing cached shader map for material AlphaBrushMaterial, compiling. 
+[2020.01.12-06.48.31:174][486]LogMaterial: Missing cached shader map for material Widget3DPassThrough, compiling. 
+[2020.01.12-06.48.31:199][486]LogMaterial: Missing cached shader map for material Widget3DPassThrough, compiling. 
+[2020.01.12-06.48.31:215][486]LogMaterial: Missing cached shader map for material Widget3DPassThrough, compiling. 
+[2020.01.12-06.48.31:229][486]LogMaterial: Missing cached shader map for material Widget3DPassThrough, compiling. 
+[2020.01.12-06.48.31:249][486]LogMaterial: Missing cached shader map for material Widget3DPassThrough, compiling. 
+[2020.01.12-06.48.31:275][486]LogMaterial: Missing cached shader map for material LaserPointerMaterial, compiling. 
+[2020.01.12-06.48.31:308][486]LogMaterial: Missing cached shader map for material VRTextMaterial, compiling. 
+[2020.01.12-06.48.31:333][486]LogMaterial: Missing cached shader map for material DefaultSpriteMaterial, compiling. 
+[2020.01.12-06.48.31:350][486]LogMaterial: Missing cached shader map for material SelectBrushMaterial, compiling. 
+[2020.01.12-06.48.31:371][486]LogMaterial: Missing cached shader map for material MaskBrushMaterial, compiling. 
+[2020.01.12-06.48.31:391][486]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2020.01.12-06.48.31:409][486]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2020.01.12-06.48.31:435][486]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2020.01.12-06.48.31:454][486]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2020.01.12-06.48.31:473][486]LogMaterial: Missing cached shader map for material MaskBrushMaterial, compiling. 
+[2020.01.12-06.48.31:489][486]LogMaterial: Missing cached shader map for material LayerVisMaterial, compiling. 
+[2020.01.12-06.48.31:503][486]LogMaterial: Missing cached shader map for material SelectBrushMaterial, compiling. 
+[2020.01.12-06.48.31:523][486]LogMaterial: Missing cached shader map for material SelectBrushMaterial, compiling. 
+[2020.01.12-06.48.31:544][486]LogMaterial: Missing cached shader map for material MaskBrushMaterial, compiling. 
+[2020.01.12-06.48.31:564][486]LogMaterial: Missing cached shader map for material LandscapeLayerUsageMaterial, compiling. 
+[2020.01.12-06.48.31:580][486]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2020.01.12-06.48.31:600][486]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2020.01.12-06.48.31:620][486]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2020.01.12-06.48.31:635][486]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2020.01.12-06.48.31:654][486]LogMaterial: Missing cached shader map for material AlphaBrushMaterial, compiling. 
+[2020.01.12-06.48.31:675][486]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2020.01.12-06.48.31:701][486]LogMaterial: Missing cached shader map for material MaskBrushMaterial, compiling. 
+[2020.01.12-06.48.31:721][486]LogMaterial: Missing cached shader map for material WorldGridMaterial, compiling. Is special engine material.
+[2020.01.12-06.48.39:536][486]LogMaterial: Verifying Global Shaders for PCD3D_ES31
+[2020.01.12-06.55.53:422][739]Cmd: OBJ SAVEPACKAGE PACKAGE="/Temp/Untitled_1" FILE="../../../../../../Documents/GitProject/UE_TankGame/Game/Saved/Autosaves/Temp/Untitled_1_Auto5.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2020.01.12-06.55.53:912][739]LogSavePackage: Save=489.12ms
+[2020.01.12-06.55.53:912][739]LogSavePackage: Moving '../../../../../../Documents/GitProject/UE_TankGame/Game/Saved/Untitled_1_Auto544EE9DD2479E73D198D2C595FDA63E09.tmp' to '../../../../../../Documents/GitProject/UE_TankGame/Game/Saved/Autosaves/Temp/Untitled_1_Auto5.umap'
+[2020.01.12-06.55.53:923][739]LogSavePackage: Display: Finished SavePackage ../../../../../../Documents/GitProject/UE_TankGame/Game/Saved/Autosaves/Temp/Untitled_1_Auto5.umap
+[2020.01.12-06.55.53:930][739]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.544
+[2020.01.12-06.55.53:930][739]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.544
+[2020.01.12-07.14.59:880][172]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Untitled" FILE="../../../../../../Documents/GitProject/UE_TankGame/Game/Content/Maps/Untitled.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.01.12-07.14.59:935][172]LogSavePackage: Save=24.02ms
+[2020.01.12-07.14.59:936][172]LogSavePackage: Moving '../../../../../../Documents/GitProject/UE_TankGame/Game/Saved/Untitled925A6B424944278C2E0641B0E1DCBCFB.tmp' to '../../../../../../Documents/GitProject/UE_TankGame/Game/Content/Maps/Untitled.umap'
+[2020.01.12-07.14.59:949][172]LogSavePackage: Display: Finished SavePackage ../../../../../../Documents/GitProject/UE_TankGame/Game/Content/Maps/Untitled.umap
+[2020.01.12-07.14.59:951][172]LogFileHelpers: Saving map 'Untitled' took 0.168
+[2020.01.12-07.15.04:416][172]LogTextFormatter: Warning: Failed to parse argument "ExistingAsset" as a number (using "0" as a fallback). Please check your format string for errors: "{ExistingAsset} already exists. Do you want to replace it?".
+[2020.01.12-07.15.07:897][172]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.816 s
+[2020.01.12-07.15.07:897][172]LogOutputDevice: Error: === Handled ensure: ===
+[2020.01.12-07.15.07:897][172]LogOutputDevice: Error: 
+[2020.01.12-07.15.07:897][172]LogOutputDevice: Error: Ensure condition failed: FPackageName::TryConvertFilenameToLongPackageName(DefaultLocation / FinalPackageFilename, DefaultPackagePath) [File:D:\Build\++UE4+Release-4.17+Compile\Sync\Engine\Source\Editor\UnrealEd\Private\FileHelpers.cpp] [Line: 2583]
+[2020.01.12-07.15.07:897][172]LogOutputDevice: Error: 
+[2020.01.12-07.15.07:897][172]LogOutputDevice: Error: Stack: 
+[2020.01.12-07.15.07:897][172]LogOutputDevice: Error: UE4Editor-Core.dll!0x0000000078423E36
+[2020.01.12-07.15.07:897][172]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000781AC2D2
+[2020.01.12-07.15.07:897][172]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000781C4746
+[2020.01.12-07.15.07:897][172]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x00000000631540A3
+[2020.01.12-07.15.07:897][172]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x00000000631815CA
+[2020.01.12-07.15.07:897][172]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x0000000063154EE8
+[2020.01.12-07.15.07:897][172]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x0000000063195943
+[2020.01.12-07.15.07:897][172]LogOutputDevice: Error: UE4Editor-MainFrame.dll!0x00000000520E3EE0
+[2020.01.12-07.15.07:897][172]LogOutputDevice: Error: UE4Editor-MainFrame.dll!0x00000000520E442E
+[2020.01.12-07.15.07:897][172]LogOutputDevice: Error: UE4Editor-SlateCore.dll!0x0000000077D5BD55
+[2020.01.12-07.15.07:897][172]LogOutputDevice: Error: UE4Editor-Slate.dll!0x0000000077737431
+[2020.01.12-07.15.07:897][172]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000776E4C32
+[2020.01.12-07.15.07:897][172]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000776E5F39
+[2020.01.12-07.15.07:897][172]LogOutputDevice: Error: UE4Editor-Slate.dll!0x0000000077745275
+[2020.01.12-07.15.07:897][172]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000778DB967
+[2020.01.12-07.15.07:897][172]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000779074D4
+[2020.01.12-07.15.07:897][172]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000777242BC
+[2020.01.12-07.15.07:897][172]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000776F7145
+[2020.01.12-07.15.07:897][172]LogOutputDevice: Error: UE4Editor-Slate.dll!0x0000000077791452
+[2020.01.12-07.15.07:897][172]LogOutputDevice: Error: UE4Editor-Slate.dll!0x0000000077779C92
+[2020.01.12-07.15.07:897][172]LogOutputDevice: Error: UE4Editor-Slate.dll!0x000000007776B68F
+[2020.01.12-07.15.07:897][172]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000783FB759
+[2020.01.12-07.15.07:897][172]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000783E3EE1
+[2020.01.12-07.15.07:897][172]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000783FD5BB
+[2020.01.12-07.15.07:897][172]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000783DF042
+[2020.01.12-07.15.07:897][172]LogOutputDevice: Error: USER32.dll!0x00000000AFFD63ED
+[2020.01.12-07.15.07:897][172]LogOutputDevice: Error: USER32.dll!0x00000000AFFD5DE2
+[2020.01.12-07.15.07:897][172]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000783FDCC6
+[2020.01.12-07.15.07:897][172]LogOutputDevice: Error: UE4Editor.exe!0x0000000085694BE2
+[2020.01.12-07.15.07:897][172]LogOutputDevice: Error: UE4Editor.exe!0x00000000856A3970
+[2020.01.12-07.15.07:897][172]LogOutputDevice: Error: UE4Editor.exe!0x00000000856A39EA
+[2020.01.12-07.15.07:897][172]LogOutputDevice: Error: UE4Editor.exe!0x00000000856B02D9
+[2020.01.12-07.15.07:897][172]LogOutputDevice: Error: UE4Editor.exe!0x00000000856B1C47
+[2020.01.12-07.15.07:897][172]LogOutputDevice: Error: KERNEL32.DLL!0x00000000B0B07BD4
+[2020.01.12-07.15.07:897][172]LogOutputDevice: Error: ntdll.dll!0x00000000B17CCED1
+[2020.01.12-07.15.07:897][172]LogOutputDevice: Error: 
+[2020.01.12-07.15.07:901][172]LogStats:                SubmitErrorReport -  0.000 s
