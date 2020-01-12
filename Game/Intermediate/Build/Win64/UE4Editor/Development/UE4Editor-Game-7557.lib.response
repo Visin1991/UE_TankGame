@@ -1,0 +1,24 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-Game-7557.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Program Files\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"D:\Documents\GitProject\UE_TankGame\Game\Intermediate\Build\Win64\UE4Editor\Development\Game\Game.cpp.obj"
+"D:\Documents\GitProject\UE_TankGame\Game\Intermediate\Build\Win64\UE4Editor\Development\Game\GameGameModeBase.cpp.obj"
+"D:\Documents\GitProject\UE_TankGame\Game\Intermediate\Build\Win64\UE4Editor\Development\Game\TankHelper.cpp.obj"
+"D:\Documents\GitProject\UE_TankGame\Game\Intermediate\Build\Win64\UE4Editor\Development\Game\Tank.cpp.obj"
+"D:\Documents\GitProject\UE_TankGame\Game\Intermediate\Build\Win64\UE4Editor\Development\Game\TankAIController.cpp.obj"
+"D:\Documents\GitProject\UE_TankGame\Game\Intermediate\Build\Win64\UE4Editor\Development\Game\TankPlayerController.cpp.obj"
+"D:\Documents\GitProject\UE_TankGame\Game\Intermediate\Build\Win64\UE4Editor\Development\Game\VHelper.cpp.obj"
+"D:\Documents\GitProject\UE_TankGame\Game\Intermediate\Build\Win64\UE4Editor\Development\Game\Game.init.gen.cpp.obj"
+"D:\Documents\GitProject\UE_TankGame\Game\Intermediate\Build\Win64\UE4Editor\Development\Game\GameGameModeBase.gen.cpp.obj"
+"D:\Documents\GitProject\UE_TankGame\Game\Intermediate\Build\Win64\UE4Editor\Development\Game\Tank.gen.cpp.obj"
+"D:\Documents\GitProject\UE_TankGame\Game\Intermediate\Build\Win64\UE4Editor\Development\Game\TankAIController.gen.cpp.obj"
+"D:\Documents\GitProject\UE_TankGame\Game\Intermediate\Build\Win64\UE4Editor\Development\Game\TankPlayerController.gen.cpp.obj"
+"D:\Program Files\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\Game\PCLaunch.rc.res"
+"D:\Program Files\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+/OUT:"D:\Documents\GitProject\UE_TankGame\Game\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Game-7557.lib"

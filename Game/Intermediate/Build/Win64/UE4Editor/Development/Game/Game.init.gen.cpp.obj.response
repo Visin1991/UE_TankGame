@@ -24,6 +24,7 @@
 /w44668
 /I "D:\Program Files\Epic Games\UE_4.17\Engine\Source"
 /I D:\Documents\GitProject\UE_TankGame\Game\Source
+/I D:\Documents\GitProject\UE_TankGame\Game\Source\Game\Public
 /I D:\Documents\GitProject\UE_TankGame\Game\Intermediate\Build\Win64\UE4Editor\Inc\Game
 /I D:\Documents\GitProject\UE_TankGame\Game\Source\Game
 /I "D:\Program Files\Epic Games\UE_4.17\Engine\Source\Runtime\Core\Public"
