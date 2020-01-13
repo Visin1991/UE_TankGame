@@ -4,4 +4,9 @@
 
 
 
+void UVStatic::LogWarning(FString info)
+{
+	V_LOG(LogTemp,info);
+}
+
 

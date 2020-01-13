@@ -13,9 +13,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define GAME_VStatic_generated_h
 
-#define Game_Source_Game_Public_VStatic_h_15_RPC_WRAPPERS
-#define Game_Source_Game_Public_VStatic_h_15_RPC_WRAPPERS_NO_PURE_DECLS
-#define Game_Source_Game_Public_VStatic_h_15_INCLASS_NO_PURE_DECLS \
+#define Game_Source_Game_Public_VStatic_h_25_RPC_WRAPPERS
+#define Game_Source_Game_Public_VStatic_h_25_RPC_WRAPPERS_NO_PURE_DECLS
+#define Game_Source_Game_Public_VStatic_h_25_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUVStatic(); \
 	friend GAME_API class UClass* Z_Construct_UClass_UVStatic(); \
@@ -25,7 +25,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define Game_Source_Game_Public_VStatic_h_15_INCLASS \
+#define Game_Source_Game_Public_VStatic_h_25_INCLASS \
 private: \
 	static void StaticRegisterNativesUVStatic(); \
 	friend GAME_API class UClass* Z_Construct_UClass_UVStatic(); \
@@ -35,7 +35,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define Game_Source_Game_Public_VStatic_h_15_STANDARD_CONSTRUCTORS \
+#define Game_Source_Game_Public_VStatic_h_25_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UVStatic(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UVStatic) \
@@ -48,7 +48,7 @@ private: \
 public:
 
 
-#define Game_Source_Game_Public_VStatic_h_15_ENHANCED_CONSTRUCTORS \
+#define Game_Source_Game_Public_VStatic_h_25_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UVStatic(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -61,26 +61,26 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UVStatic); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UVStatic)
 
 
-#define Game_Source_Game_Public_VStatic_h_15_PRIVATE_PROPERTY_OFFSET
-#define Game_Source_Game_Public_VStatic_h_12_PROLOG
-#define Game_Source_Game_Public_VStatic_h_15_GENERATED_BODY_LEGACY \
+#define Game_Source_Game_Public_VStatic_h_25_PRIVATE_PROPERTY_OFFSET
+#define Game_Source_Game_Public_VStatic_h_22_PROLOG
+#define Game_Source_Game_Public_VStatic_h_25_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Game_Source_Game_Public_VStatic_h_15_PRIVATE_PROPERTY_OFFSET \
-	Game_Source_Game_Public_VStatic_h_15_RPC_WRAPPERS \
-	Game_Source_Game_Public_VStatic_h_15_INCLASS \
-	Game_Source_Game_Public_VStatic_h_15_STANDARD_CONSTRUCTORS \
+	Game_Source_Game_Public_VStatic_h_25_PRIVATE_PROPERTY_OFFSET \
+	Game_Source_Game_Public_VStatic_h_25_RPC_WRAPPERS \
+	Game_Source_Game_Public_VStatic_h_25_INCLASS \
+	Game_Source_Game_Public_VStatic_h_25_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Game_Source_Game_Public_VStatic_h_15_GENERATED_BODY \
+#define Game_Source_Game_Public_VStatic_h_25_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Game_Source_Game_Public_VStatic_h_15_PRIVATE_PROPERTY_OFFSET \
-	Game_Source_Game_Public_VStatic_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	Game_Source_Game_Public_VStatic_h_15_INCLASS_NO_PURE_DECLS \
-	Game_Source_Game_Public_VStatic_h_15_ENHANCED_CONSTRUCTORS \
+	Game_Source_Game_Public_VStatic_h_25_PRIVATE_PROPERTY_OFFSET \
+	Game_Source_Game_Public_VStatic_h_25_RPC_WRAPPERS_NO_PURE_DECLS \
+	Game_Source_Game_Public_VStatic_h_25_INCLASS_NO_PURE_DECLS \
+	Game_Source_Game_Public_VStatic_h_25_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

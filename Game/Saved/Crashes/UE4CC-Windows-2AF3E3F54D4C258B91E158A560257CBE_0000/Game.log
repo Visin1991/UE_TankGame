@@ -1,0 +1,558 @@
+﻿Log file open, 01/13/20 11:24:13
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: Game
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(2097891062) SRandInit(2097891062).
+LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.224911
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3658906
+LogInit: Engine Version: 4.17.2-3658906+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line: -EpicPortal  -epicusername="Visin2014" -epicuserid=af8eca7cf2f64770afa50fcfdba1e890 -epiclocale=en-US
+LogInit: Base directory: E:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2020.01.13-03.24.14:803][  0]LogInit: Selected Device Profile: [Windows]
+[2020.01.13-03.24.14:803][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.01.13-03.24.14:811][  0]LogInit: Computer: DESKTOP-UFHALV2
+[2020.01.13-03.24.14:811][  0]LogInit: User: Administrator
+[2020.01.13-03.24.14:811][  0]LogInit: CPU Page size=4096, Cores=6
+[2020.01.13-03.24.14:811][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.01.13-03.24.14:811][  0]LogMemory: Memory total: Physical=63.9GB (64GB approx)
+[2020.01.13-03.24.14:811][  0]LogMemory: Platform Memory Stats for Windows
+[2020.01.13-03.24.14:811][  0]LogMemory: Process Physical Memory: 279.48 MB used, 279.48 MB peak
+[2020.01.13-03.24.14:811][  0]LogMemory: Process Virtual Memory: 280.81 MB used, 280.81 MB peak
+[2020.01.13-03.24.14:811][  0]LogMemory: Physical Memory: 7616.10 MB used,  57862.13 MB free, 65478.22 MB total
+[2020.01.13-03.24.14:811][  0]LogMemory: Virtual Memory: 4799.87 MB used,  57862.13 MB free, 134217728.00 MB total
+[2020.01.13-03.24.14:913][  0]LogInit: Using OS detected language (en-US).
+[2020.01.13-03.24.14:913][  0]LogInit: Using OS detected locale (en-US).
+[2020.01.13-03.24.14:916][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.01.13-03.24.15:465][  0]LogD3D11RHI: D3D11 adapters:
+[2020.01.13-03.24.15:531][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2080 Ti' (Feature Level 11_0)
+[2020.01.13-03.24.15:531][  0]LogD3D11RHI:       11048/0/32739 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2020.01.13-03.24.15:533][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.01.13-03.24.15:533][  0]LogD3D11RHI:       0/0/32739 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.01.13-03.24.15:533][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.01.13-03.24.15:538][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.01.13-03.24.15:538][  0]LogD3D11RHI:     GPU DeviceId: 0x1e04 (for the marketing name, search the web for "GPU Device Id")
+[2020.01.13-03.24.15:538][  0]LogWindows: EnumDisplayDevices:
+[2020.01.13-03.24.15:539][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2080 Ti' (P:1 D:1)
+[2020.01.13-03.24.15:539][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2080 Ti' (P:0 D:1)
+[2020.01.13-03.24.15:539][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2080 Ti' (P:0 D:0)
+[2020.01.13-03.24.15:539][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2080 Ti' (P:0 D:0)
+[2020.01.13-03.24.15:540][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2020.01.13-03.24.15:540][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2080 Ti
+[2020.01.13-03.24.15:540][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2020.01.13-03.24.15:540][  0]LogD3D11RHI:      Driver Date: Unknown
+[2020.01.13-03.24.15:540][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2020.01.13-03.24.15:581][  0]LogD3D11RHI: Async texture creation enabled
+[2020.01.13-03.24.15:590][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.01.13-03.24.15:675][  0]LogShaderCompilers: Guid format shader working directory is 24 characters bigger than the processId version (F:/GitProject/UE_TankGame/Game/Intermediate/Shaders/WorkingDirectory/1556/).
+[2020.01.13-03.24.15:675][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Administrator/AppData/Local/Temp/UnrealShaderWorkingDir/7B3696624FBA0F36AFCFF5A7EB52E81E/'.
+[2020.01.13-03.24.15:675][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.01.13-03.24.16:418][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2020.01.13-03.24.16:479][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2020.01.13-03.24.16:525][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2020.01.13-03.24.16:564][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2020.01.13-03.24.16:602][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2020.01.13-03.24.16:636][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2020.01.13-03.24.16:670][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2020.01.13-03.24.16:703][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2020.01.13-03.24.16:731][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2020.01.13-03.24.16:772][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.01.13-03.24.16:805][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2020.01.13-03.24.16:838][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2020.01.13-03.24.16:871][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2020.01.13-03.24.16:903][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2020.01.13-03.24.16:936][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2020.01.13-03.24.17:001][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2020.01.13-03.24.17:001][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2020.01.13-03.24.17:026][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2020.01.13-03.24.17:100][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2020.01.13-03.24.17:119][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2020.01.13-03.24.17:152][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2020.01.13-03.24.17:185][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2020.01.13-03.24.17:218][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2020.01.13-03.24.17:251][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2020.01.13-03.24.17:251][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.01.13-03.24.17:556][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.01.13-03.24.17:616][  0]LogDerivedDataCache: Loaded boot cache 0.06s 93MB C:/Users/Administrator/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2020.01.13-03.24.17:616][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Administrator/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2020.01.13-03.24.17:616][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file F:/GitProject/UE_TankGame/Game/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.01.13-03.24.17:616][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.01.13-03.24.17:616][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file F:/GitProject/UE_TankGame/Game/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.01.13-03.24.17:616][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.01.13-03.24.17:628][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.01.13-03.24.17:642][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Administrator/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.01.13-03.24.17:649][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.01.13-03.24.17:650][  0]LogSlate: Using Freetype 2.6.0
+[2020.01.13-03.24.17:650][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.01.13-03.24.17:650][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.01.13-03.24.17:854][  0]LogAssetRegistry: FAssetRegistry took 0.0252 seconds to start up
+[2020.01.13-03.24.17:932][  0]LogInit: Selected Device Profile: [Windows]
+[2020.01.13-03.24.18:039][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2020.01.13-03.24.18:235][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2020.01.13-03.24.18:259][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2020.01.13-03.24.18:259][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.01.13-03.24.18:259][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2020.01.13-03.24.18:259][  0]LogMeshReduction: No automatic mesh merging module available
+[2020.01.13-03.24.18:259][  0]LogMeshMerging: No automatic mesh merging module available
+[2020.01.13-03.24.18:518][  0]LogNetVersion: Game , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2957514414)
+[2020.01.13-03.24.18:697][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.054780 seconds
+[2020.01.13-03.24.18:701][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2020.01.13-03.24.18:701][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2020.01.13-03.24.18:701][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.01.13-03.24.18:739][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2020.01.13-03.24.20:574][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.01.13-03.24.20:605][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.01.13-03.24.21:612][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2020.01.13-03.24.21:886][  0]SourceControl: Source control is disabled
+[2020.01.13-03.24.21:886][  0]SourceControl: Source control is disabled
+[2020.01.13-03.24.21:917][  0]SourceControl: Source control is disabled
+[2020.01.13-03.24.21:949][  0]SourceControl: Source control is disabled
+[2020.01.13-03.24.22:330][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.01.13-03.24.22:487][  0]LogOcInput: OculusInput pre-init called
+[2020.01.13-03.24.22:662][  0]LogEngine: Initializing Engine...
+[2020.01.13-03.24.22:664][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.01.13-03.24.22:820][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2020.01.13-03.24.22:820][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2020.01.13-03.24.22:900][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.01.13-03.24.22:936][  0]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.01.13-03.24.22:999][  0]LogInit: FAudioDevice initialized.
+[2020.01.13-03.24.23:071][  0]LogDerivedDataCache: Saved boot cache 0.07s 93MB C:/Users/Administrator/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2020.01.13-03.24.23:075][  0]LogInit: Texture streaming: Enabled
+[2020.01.13-03.24.23:146][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.01.13-03.24.23:312][  0]LogInit: Transaction tracking system initialized
+[2020.01.13-03.24.23:506][  0]BlueprintLog: New page: Editor Load
+[2020.01.13-03.24.24:060][  0]LocalizationService: Localization service is disabled
+[2020.01.13-03.24.24:688][  0]LogConsoleResponse: Display: 
+[2020.01.13-03.24.24:844][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.01.13-03.24.24:844][  0]LogCook: Display: Mobile HDR setting 1
+[2020.01.13-03.24.24:844][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2020.01.13-03.24.25:525][  0]LogFileCache: Scanning file cache for directory 'F:/GitProject/UE_TankGame/Game/Content/' took 0.01s
+[2020.01.13-03.24.25:525][  0]SourceControl: Source control is disabled
+[2020.01.13-03.24.25:525][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.01.13-03.24.25:525][  0]LightingResults: New page: Lighting Build
+[2020.01.13-03.24.25:552][  0]MapCheck: New page: Map Check
+[2020.01.13-03.24.25:552][  0]LightingResults: New page: Lighting Build
+[2020.01.13-03.24.25:687][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2020.01.13-03.24.25:691][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.01.13-03.24.25:703][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.01.13-03.24.25:751][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 48.404ms to complete.
+[2020.01.13-03.24.25:751][  0]LogFileHelpers: Loading map 'Template_Default' took 0.226
+[2020.01.13-03.24.26:291][  0]LogCollectionManager: Loaded 0 collections in 0.001205 seconds
+[2020.01.13-03.24.26:434][  0]LogFileCache: Scanning file cache for directory 'F:/GitProject/UE_TankGame/Game/Saved/Collections/' took 0.01s
+[2020.01.13-03.24.26:434][  0]LogFileCache: Scanning file cache for directory 'F:/GitProject/UE_TankGame/Game/Content/Developers/Administrator/Collections/' took 0.01s
+[2020.01.13-03.24.26:434][  0]LogFileCache: Scanning file cache for directory 'F:/GitProject/UE_TankGame/Game/Content/Collections/' took 0.01s
+[2020.01.13-03.24.26:434][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2020.01.13-03.24.26:445][  0]LogContentBrowser: Native class hierarchy populated in 0.0097 seconds. Added 2387 classes and 502 folders.
+[2020.01.13-03.24.26:504][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0022 seconds. Added 0 classes and 0 folders.
+[2020.01.13-03.24.27:139][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0019 seconds. Added 0 classes and 0 folders.
+[2020.01.13-03.24.27:218][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0018 seconds. Added 1 classes and 2 folders.
+[2020.01.13-03.24.27:834][  0]LogSlate: Took 0.000228 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.01.13-03.24.27:836][  0]LogSlate: Took 0.000209 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.01.13-03.24.27:858][  0]LogSlate: Took 0.016271 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.01.13-03.24.28:137][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2020.01.13-03.24.28:480][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0018 seconds. Added 1 classes and 2 folders.
+[2020.01.13-03.24.28:480][  0]LogLoad: (Engine Initialization) Total time: 15.64 seconds
+[2020.01.13-03.24.28:480][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.01.13-03.24.28:481][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2020.01.13-03.24.28:481][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2020.01.13-03.24.28:503][  0]LogAssetRegistry: Asset discovery search completed in 10.6719 seconds
+[2020.01.13-03.24.28:513][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2020.01.13-03.24.28:513][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000046 seconds (updated 0 objects)
+[2020.01.13-03.24.28:524][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.01.13-03.24.28:572][  0]LogSlate: Took 0.012002 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2020.01.13-03.24.48:278][343]LogSlate: Took 0.000177 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2020.01.13-03.24.48:295][343]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/AI/BP_Tank_AI.BP_Tank_AI_C
+[2020.01.13-03.24.48:295][343]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/AI/BP_Tank_AI.BP_Tank_AI_C
+[2020.01.13-03.24.48:295][343]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/AI/BP_Tank_AI.BP_Tank_AI_C
+[2020.01.13-03.24.48:295][343]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/AI/BP_Tank_AI.BP_Tank_AI_C
+[2020.01.13-03.24.48:296][343]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/AI/BP_Tank_AI.BP_Tank_AI_C
+[2020.01.13-03.24.48:296][343]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/AI/BP_Tank_AI.BP_Tank_AI_C
+[2020.01.13-03.24.48:296][343]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/AI/BP_Tank_AI.BP_Tank_AI_C
+[2020.01.13-03.24.48:296][343]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/AI/BP_Tank_AI.BP_Tank_AI_C
+[2020.01.13-03.24.48:296][343]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/AI/BP_Tank_AI.BP_Tank_AI_C
+[2020.01.13-03.24.48:296][343]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/AI/BP_Tank_AI.BP_Tank_AI_C
+[2020.01.13-03.24.48:296][343]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/AI/BP_Tank_AI.BP_Tank_AI_C
+[2020.01.13-03.24.48:296][343]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/AI/BP_Tank_AI.BP_Tank_AI_C
+[2020.01.13-03.24.48:296][343]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/AI/BP_Tank_AI.BP_Tank_AI_C
+[2020.01.13-03.24.48:296][343]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/AI/BP_Tank_AI.BP_Tank_AI_C
+[2020.01.13-03.24.48:297][343]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/AI/BP_Tank_AI.BP_Tank_AI_C
+[2020.01.13-03.24.48:364][343]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/Player/BP_PlayerController.BP_PlayerController_C
+[2020.01.13-03.24.48:364][343]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/Player/BP_PlayerController.BP_PlayerController_C
+[2020.01.13-03.24.48:364][343]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/Player/BP_PlayerController.BP_PlayerController_C
+[2020.01.13-03.24.48:364][343]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/Player/BP_PlayerController.BP_PlayerController_C
+[2020.01.13-03.24.48:364][343]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/Player/BP_PlayerController.BP_PlayerController_C
+[2020.01.13-03.24.48:364][343]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/Player/BP_PlayerController.BP_PlayerController_C
+[2020.01.13-03.24.48:365][343]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/Player/BP_PlayerController.BP_PlayerController_C
+[2020.01.13-03.24.48:365][343]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/Player/BP_PlayerController.BP_PlayerController_C
+[2020.01.13-03.24.48:365][343]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/Player/BP_PlayerController.BP_PlayerController_C
+[2020.01.13-03.24.48:367][343]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/Player/BP_Tank_Player.BP_Tank_Player_C
+[2020.01.13-03.24.48:368][343]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/Player/BP_Tank_Player.BP_Tank_Player_C
+[2020.01.13-03.24.48:368][343]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/Player/BP_Tank_Player.BP_Tank_Player_C
+[2020.01.13-03.24.48:368][343]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/Player/BP_Tank_Player.BP_Tank_Player_C
+[2020.01.13-03.24.48:368][343]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/Player/BP_Tank_Player.BP_Tank_Player_C
+[2020.01.13-03.24.48:368][343]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/Player/BP_Tank_Player.BP_Tank_Player_C
+[2020.01.13-03.24.48:368][343]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/Player/BP_Tank_Player.BP_Tank_Player_C
+[2020.01.13-03.24.48:368][343]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/Player/BP_Tank_Player.BP_Tank_Player_C
+[2020.01.13-03.24.48:368][343]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/Player/BP_Tank_Player.BP_Tank_Player_C
+[2020.01.13-03.24.48:368][343]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/Player/BP_Tank_Player.BP_Tank_Player_C
+[2020.01.13-03.24.48:369][343]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/Player/BP_Tank_Player.BP_Tank_Player_C
+[2020.01.13-03.24.48:369][343]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/Player/BP_Tank_Player.BP_Tank_Player_C
+[2020.01.13-03.24.48:369][343]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/Player/BP_Tank_Player.BP_Tank_Player_C
+[2020.01.13-03.24.48:369][343]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/Player/BP_Tank_Player.BP_Tank_Player_C
+[2020.01.13-03.24.48:369][343]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/Player/BP_Tank_Player.BP_Tank_Player_C
+[2020.01.13-03.24.48:369][343]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/Player/BP_Tank_Player.BP_Tank_Player_C
+[2020.01.13-03.24.48:369][343]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/Player/BP_Tank_Player.BP_Tank_Player_C
+[2020.01.13-03.24.48:369][343]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/Player/BP_Tank_Player.BP_Tank_Player_C
+[2020.01.13-03.24.48:369][343]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/Player/BP_Tank_Player.BP_Tank_Player_C
+[2020.01.13-03.24.48:370][343]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/Player/BP_Tank_Player.BP_Tank_Player_C
+[2020.01.13-03.24.48:370][343]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/Player/BP_Tank_Player.BP_Tank_Player_C
+[2020.01.13-03.24.48:370][343]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/Player/BP_Tank_Player.BP_Tank_Player_C
+[2020.01.13-03.24.48:370][343]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/Player/BP_Tank_Player.BP_Tank_Player_C
+[2020.01.13-03.24.48:370][343]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/Player/BP_Tank_Player.BP_Tank_Player_C
+[2020.01.13-03.24.48:370][343]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/Player/BP_Tank_Player.BP_Tank_Player_C
+[2020.01.13-03.24.48:370][343]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/Player/BP_Tank_Player.BP_Tank_Player_C
+[2020.01.13-03.24.48:371][343]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/Player/BP_PlayerController.BP_PlayerController_C
+[2020.01.13-03.24.48:371][343]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/Player/BP_Tank_Player.BP_Tank_Player_C
+[2020.01.13-03.24.48:371][343]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/Player/BP_PlayerController.BP_PlayerController_C
+[2020.01.13-03.24.48:371][343]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/Player/BP_Tank_Player.BP_Tank_Player_C
+[2020.01.13-03.24.48:378][343]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/AI/BP_Tank_AI.BP_Tank_AI_C
+[2020.01.13-03.24.48:395][343]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/AI/BP_Tank_AI.BP_Tank_AI_C
+[2020.01.13-03.24.48:400][343]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/AI/BP_Tank_AI.BP_Tank_AI_C
+[2020.01.13-03.24.48:400][343]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/AI/BP_Tank_AI.BP_Tank_AI_C
+[2020.01.13-03.24.48:400][343]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/AI/BP_Tank_AI.BP_Tank_AI_C
+[2020.01.13-03.24.48:400][343]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/AI/BP_Tank_AI.BP_Tank_AI_C
+[2020.01.13-03.24.48:400][343]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/AI/BP_Tank_AI.BP_Tank_AI_C
+[2020.01.13-03.24.48:417][343]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/AI/BP_Tank_AI.BP_Tank_AI_C
+[2020.01.13-03.24.48:421][343]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/AI/BP_Tank_AI.BP_Tank_AI_C
+[2020.01.13-03.24.48:421][343]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/AI/BP_Tank_AI.BP_Tank_AI_C
+[2020.01.13-03.24.48:422][343]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/Player/BP_Tank_Player.BP_Tank_Player_C
+[2020.01.13-03.24.48:422][343]LogTexture: Display: Building textures: Texture2D_128 (BGRA8, 512X512)
+[2020.01.13-03.24.48:423][343]LogTexture: Display: Building textures: Texture2D_1 (BGRA8, 64X64)
+[2020.01.13-03.24.48:423][343]LogTexture: Display: Building textures: Texture2D_10 (BGRA8, 64X64)
+[2020.01.13-03.24.48:423][343]LogTexture: Display: Building textures: Texture2D_17 (BGRA8, 64X64)
+[2020.01.13-03.24.48:423][343]LogTexture: Display: Building textures: Texture2D_16 (BGRA8, 64X64)
+[2020.01.13-03.24.48:423][343]LogTexture: Display: Building textures: Texture2D_13 (BGRA8, 64X64)
+[2020.01.13-03.24.48:423][343]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/Player/BP_Tank_Player.BP_Tank_Player_C
+[2020.01.13-03.24.48:423][343]LogTexture: Display: Building textures: Texture2D_11 (BGRA8, 64X64)
+[2020.01.13-03.24.48:423][343]LogTexture: Display: Building textures: Texture2D_12 (BGRA8, 64X64)
+[2020.01.13-03.24.48:423][343]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/Player/BP_Tank_Player.BP_Tank_Player_C
+[2020.01.13-03.24.48:423][343]LogTexture: Display: Building textures: Texture2D_15 (BGRA8, 64X64)
+[2020.01.13-03.24.48:423][343]LogTexture: Display: Building textures: Texture2D_14 (BGRA8, 64X64)
+[2020.01.13-03.24.48:423][343]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/Player/BP_Tank_Player.BP_Tank_Player_C
+[2020.01.13-03.24.48:423][343]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/Player/BP_Tank_Player.BP_Tank_Player_C
+[2020.01.13-03.24.48:423][343]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/Player/BP_Tank_Player.BP_Tank_Player_C
+[2020.01.13-03.24.48:423][343]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/Player/BP_PlayerController.BP_PlayerController_C
+[2020.01.13-03.24.48:423][343]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/Player/BP_PlayerController.BP_PlayerController_C
+[2020.01.13-03.24.48:437][343]LogTexture: Display: Building textures: Texture2D_19 (BGRA8, 64X64)
+[2020.01.13-03.24.48:437][343]LogTexture: Display: Building textures: Texture2D_18 (BGRA8, 64X64)
+[2020.01.13-03.24.48:437][343]LogTexture: Display: Building textures: Texture2D_22 (BGRA8, 64X64)
+[2020.01.13-03.24.48:437][343]LogTexture: Display: Building textures: Texture2D_25 (BGRA8, 64X64)
+[2020.01.13-03.24.48:437][343]LogTexture: Display: Building textures: Texture2D_20 (BGRA8, 64X64)
+[2020.01.13-03.24.48:437][343]LogTexture: Display: Building textures: Texture2D_2 (BGRA8, 64X64)
+[2020.01.13-03.24.48:437][343]LogTexture: Display: Building textures: Texture2D_23 (BGRA8, 64X64)
+[2020.01.13-03.24.48:437][343]LogTexture: Display: Building textures: Texture2D_24 (BGRA8, 64X64)
+[2020.01.13-03.24.48:437][343]LogTexture: Display: Building textures: Texture2D_21 (BGRA8, 64X64)
+[2020.01.13-03.24.48:437][343]LogTexture: Display: Building textures: Texture2D_26 (BGRA8, 64X64)
+[2020.01.13-03.24.48:437][343]LogTexture: Display: Building textures: Texture2D_28 (BGRA8, 64X64)
+[2020.01.13-03.24.48:437][343]LogTexture: Display: Building textures: Texture2D_27 (BGRA8, 64X64)
+[2020.01.13-03.24.48:437][343]LogTexture: Display: Building textures: Texture2D_3 (BGRA8, 64X64)
+[2020.01.13-03.24.48:437][343]LogTexture: Display: Building textures: Texture2D_29 (BGRA8, 64X64)
+[2020.01.13-03.24.48:437][343]LogTexture: Display: Building textures: Texture2D_30 (BGRA8, 64X64)
+[2020.01.13-03.24.48:437][343]LogTexture: Display: Building textures: Texture2D_31 (BGRA8, 64X64)
+[2020.01.13-03.24.48:437][343]LogTexture: Display: Building textures: Texture2D_32 (BGRA8, 64X64)
+[2020.01.13-03.24.48:437][343]LogTexture: Display: Building textures: Texture2D_34 (BGRA8, 64X64)
+[2020.01.13-03.24.48:437][343]LogTexture: Display: Building textures: Texture2D_33 (BGRA8, 64X64)
+[2020.01.13-03.24.48:437][343]LogTexture: Display: Building textures: Texture2D_35 (BGRA8, 64X64)
+[2020.01.13-03.24.48:437][343]LogTexture: Display: Building textures: Texture2D_36 (BGRA8, 64X64)
+[2020.01.13-03.24.48:437][343]LogTexture: Display: Building textures: Texture2D_42 (BGRA8, 64X64)
+[2020.01.13-03.24.48:437][343]LogTexture: Display: Building textures: Texture2D_38 (BGRA8, 64X64)
+[2020.01.13-03.24.48:437][343]LogTexture: Display: Building textures: Texture2D_39 (BGRA8, 64X64)
+[2020.01.13-03.24.48:437][343]LogTexture: Display: Building textures: Texture2D_44 (BGRA8, 64X64)
+[2020.01.13-03.24.48:437][343]LogTexture: Display: Building textures: Texture2D_40 (BGRA8, 64X64)
+[2020.01.13-03.24.48:437][343]LogTexture: Display: Building textures: Texture2D_37 (BGRA8, 64X64)
+[2020.01.13-03.24.48:437][343]LogTexture: Display: Building textures: Texture2D_4 (BGRA8, 64X64)
+[2020.01.13-03.24.48:437][343]LogTexture: Display: Building textures: Texture2D_41 (BGRA8, 64X64)
+[2020.01.13-03.24.48:437][343]LogTexture: Display: Building textures: Texture2D_43 (BGRA8, 64X64)
+[2020.01.13-03.24.48:437][343]LogTexture: Display: Building textures: Texture2D_46 (BGRA8, 64X64)
+[2020.01.13-03.24.48:437][343]LogTexture: Display: Building textures: Texture2D_45 (BGRA8, 64X64)
+[2020.01.13-03.24.48:437][343]LogTexture: Display: Building textures: Texture2D_47 (BGRA8, 64X64)
+[2020.01.13-03.24.48:437][343]LogTexture: Display: Building textures: Texture2D_48 (BGRA8, 64X64)
+[2020.01.13-03.24.48:437][343]LogTexture: Display: Building textures: Texture2D_49 (BGRA8, 64X64)
+[2020.01.13-03.24.48:437][343]LogTexture: Display: Building textures: Texture2D_5 (BGRA8, 64X64)
+[2020.01.13-03.24.48:437][343]LogTexture: Display: Building textures: Texture2D_51 (BGRA8, 64X64)
+[2020.01.13-03.24.48:437][343]LogTexture: Display: Building textures: Texture2D_50 (BGRA8, 64X64)
+[2020.01.13-03.24.48:437][343]LogTexture: Display: Building textures: Texture2D_52 (BGRA8, 64X64)
+[2020.01.13-03.24.48:437][343]LogTexture: Display: Building textures: Texture2D_53 (BGRA8, 64X64)
+[2020.01.13-03.24.48:437][343]LogTexture: Display: Building textures: Texture2D_54 (BGRA8, 64X64)
+[2020.01.13-03.24.48:437][343]LogTexture: Display: Building textures: Texture2D_55 (BGRA8, 64X64)
+[2020.01.13-03.24.48:437][343]LogTexture: Display: Building textures: Texture2D_56 (BGRA8, 64X64)
+[2020.01.13-03.24.48:437][343]LogTexture: Display: Building textures: Texture2D_6 (BGRA8, 64X64)
+[2020.01.13-03.24.48:437][343]LogTexture: Display: Building textures: Texture2D_63 (BGRA8, 64X64)
+[2020.01.13-03.24.48:437][343]LogTexture: Display: Building textures: Texture2D_59 (BGRA8, 64X64)
+[2020.01.13-03.24.48:437][343]LogTexture: Display: Building textures: Texture2D_57 (BGRA8, 64X64)
+[2020.01.13-03.24.48:437][343]LogTexture: Display: Building textures: Texture2D_58 (BGRA8, 64X64)
+[2020.01.13-03.24.48:437][343]LogTexture: Display: Building textures: Texture2D_60 (BGRA8, 64X64)
+[2020.01.13-03.24.48:437][343]LogTexture: Display: Building textures: Texture2D_61 (BGRA8, 64X64)
+[2020.01.13-03.24.48:437][343]LogTexture: Display: Building textures: Texture2D_62 (BGRA8, 64X64)
+[2020.01.13-03.24.48:437][343]LogTexture: Display: Building textures: Texture2D_7 (BGRA8, 64X64)
+[2020.01.13-03.24.48:437][343]LogTexture: Display: Building textures: Texture2D_64 (BGRA8, 64X64)
+[2020.01.13-03.24.48:437][343]LogTexture: Display: Building textures: Texture2D_9 (BGRA8, 64X64)
+[2020.01.13-03.24.48:437][343]LogTexture: Display: Building textures: Texture2D_8 (BGRA8, 64X64)
+[2020.01.13-03.24.48:437][343]LogMaterial: Missing cached shader map for material WorldGridMaterial, compiling. Is special engine material.
+[2020.01.13-03.24.52:112][343]LogStaticMesh: Building static mesh tank_fbx_Body...
+[2020.01.13-03.24.52:421][343]LogStaticMesh: Built static mesh [0.31s] /Game/Mesh/tank_fbx_Body.tank_fbx_Body
+[2020.01.13-03.24.52:422][343]LogSlate: Took 0.000168 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.01.13-03.24.52:502][343]LogStaticMesh: Building static mesh tank_fbx_Barrel...
+[2020.01.13-03.24.52:509][343]LogStaticMesh: Built static mesh [0.01s] /Game/Mesh/tank_fbx_Barrel.tank_fbx_Barrel
+[2020.01.13-03.24.52:512][343]LogStaticMesh: Building static mesh tank_fbx_Turret...
+[2020.01.13-03.24.52:524][343]LogStaticMesh: Built static mesh [0.01s] /Game/Mesh/tank_fbx_Turret.tank_fbx_Turret
+[2020.01.13-03.24.52:528][343]LogStaticMesh: Building static mesh tank_fbx_Track...
+[2020.01.13-03.24.52:647][343]LogStaticMesh: Built static mesh [0.12s] /Game/Mesh/tank_fbx_Track.tank_fbx_Track
+[2020.01.13-03.24.52:660][343]LogAIModule: Creating AISystem for world Demo
+[2020.01.13-03.24.52:684][343]Cmd: MAP LOAD FILE="F:/GitProject/UE_TankGame/Game/Content/Maps/Demo.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.01.13-03.24.52:684][343]LightingResults: New page: Lighting Build
+[2020.01.13-03.24.52:684][343]LoadErrors: New page: Loading map: Demo.umap
+[2020.01.13-03.24.52:685][343]MapCheck: New page: Map Check
+[2020.01.13-03.24.52:685][343]LightingResults: New page: Lighting Build
+[2020.01.13-03.24.52:793][343]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.01.13-03.24.52:835][343]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.01.13-03.24.52:892][343]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 57.117ms to complete.
+[2020.01.13-03.24.52:893][343]LogFileHelpers: Loading map 'Demo' took 0.210
+[2020.01.13-03.24.52:899][343]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Turret': BlueprintGeneratedClass /Game/Blueprints/AI/BP_Tank_AI.BP_Tank_AI_C
+[2020.01.13-03.24.52:899][343]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Barrel': BlueprintGeneratedClass /Game/Blueprints/AI/BP_Tank_AI.BP_Tank_AI_C
+[2020.01.13-03.24.52:899][343]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'LeftTrack': BlueprintGeneratedClass /Game/Blueprints/AI/BP_Tank_AI.BP_Tank_AI_C
+[2020.01.13-03.24.52:899][343]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'RightTrack': BlueprintGeneratedClass /Game/Blueprints/AI/BP_Tank_AI.BP_Tank_AI_C
+[2020.01.13-03.24.52:899][343]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Tank': BlueprintGeneratedClass /Game/Blueprints/AI/BP_Tank_AI.BP_Tank_AI_C
+[2020.01.13-03.24.52:899][343]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'UserConstructionScript': BlueprintGeneratedClass /Game/Blueprints/AI/BP_Tank_AI.BP_Tank_AI_C
+[2020.01.13-03.24.52:899][343]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot_GEN_VARIABLE': BlueprintGeneratedClass /Game/Blueprints/AI/BP_Tank_AI.BP_Tank_AI_C
+[2020.01.13-03.24.52:900][343]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'SimpleConstructionScript_0': BlueprintGeneratedClass /Game/Blueprints/AI/BP_Tank_AI.BP_Tank_AI_C
+[2020.01.13-03.24.52:900][343]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'SCS_Node_0': SimpleConstructionScript /Game/Blueprints/AI/BP_Tank_AI.BP_Tank_AI_C:SimpleConstructionScript_0
+[2020.01.13-03.24.52:900][343]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'SCS_Node_1': SimpleConstructionScript /Game/Blueprints/AI/BP_Tank_AI.BP_Tank_AI_C:SimpleConstructionScript_0
+[2020.01.13-03.24.52:900][343]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'SCS_Node_2': SimpleConstructionScript /Game/Blueprints/AI/BP_Tank_AI.BP_Tank_AI_C:SimpleConstructionScript_0
+[2020.01.13-03.24.52:900][343]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'SCS_Node_3': SimpleConstructionScript /Game/Blueprints/AI/BP_Tank_AI.BP_Tank_AI_C:SimpleConstructionScript_0
+[2020.01.13-03.24.52:900][343]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'SCS_Node_4': SimpleConstructionScript /Game/Blueprints/AI/BP_Tank_AI.BP_Tank_AI_C:SimpleConstructionScript_0
+[2020.01.13-03.24.52:900][343]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'SCS_Node_5': SimpleConstructionScript /Game/Blueprints/AI/BP_Tank_AI.BP_Tank_AI_C:SimpleConstructionScript_0
+[2020.01.13-03.24.52:900][343]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Barrel_GEN_VARIABLE': BlueprintGeneratedClass /Game/Blueprints/AI/BP_Tank_AI.BP_Tank_AI_C
+[2020.01.13-03.24.52:900][343]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'LeftTrack_GEN_VARIABLE': BlueprintGeneratedClass /Game/Blueprints/AI/BP_Tank_AI.BP_Tank_AI_C
+[2020.01.13-03.24.52:900][343]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'RightTrack_GEN_VARIABLE': BlueprintGeneratedClass /Game/Blueprints/AI/BP_Tank_AI.BP_Tank_AI_C
+[2020.01.13-03.24.52:900][343]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Tank_GEN_VARIABLE': BlueprintGeneratedClass /Game/Blueprints/AI/BP_Tank_AI.BP_Tank_AI_C
+[2020.01.13-03.24.52:900][343]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Turret_GEN_VARIABLE': BlueprintGeneratedClass /Game/Blueprints/AI/BP_Tank_AI.BP_Tank_AI_C
+[2020.01.13-03.24.52:900][343]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'ExecuteUbergraph_BP_PlayerController': BlueprintGeneratedClass /Game/Blueprints/Player/BP_PlayerController.BP_PlayerController_C
+[2020.01.13-03.24.52:900][343]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'CallFunc_Create_ReturnValue': Function /Game/Blueprints/Player/BP_PlayerController.BP_PlayerController_C:ExecuteUbergraph_BP_PlayerController
+[2020.01.13-03.24.52:900][343]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'EntryPoint': Function /Game/Blueprints/Player/BP_PlayerController.BP_PlayerController_C:ExecuteUbergraph_BP_PlayerController
+[2020.01.13-03.24.52:900][343]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'ReceiveBeginPlay': BlueprintGeneratedClass /Game/Blueprints/Player/BP_PlayerController.BP_PlayerController_C
+[2020.01.13-03.24.52:900][343]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'UserConstructionScript': BlueprintGeneratedClass /Game/Blueprints/Player/BP_PlayerController.BP_PlayerController_C
+[2020.01.13-03.24.52:900][343]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'UberGraphFrame': BlueprintGeneratedClass /Game/Blueprints/Player/BP_PlayerController.BP_PlayerController_C
+[2020.01.13-03.24.52:900][343]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot_GEN_VARIABLE': BlueprintGeneratedClass /Game/Blueprints/Player/BP_PlayerController.BP_PlayerController_C
+[2020.01.13-03.24.52:900][343]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'TransformComponent0': BP_PlayerController_C /Game/Blueprints/Player/BP_PlayerController.Default__BP_PlayerController_C
+[2020.01.13-03.24.52:900][343]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'SimpleConstructionScript_0': BlueprintGeneratedClass /Game/Blueprints/Player/BP_PlayerController.BP_PlayerController_C
+[2020.01.13-03.24.52:900][343]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'SCS_Node_0': SimpleConstructionScript /Game/Blueprints/Player/BP_PlayerController.BP_PlayerController_C:SimpleConstructionScript_0
+[2020.01.13-03.24.52:900][343]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Turret': BlueprintGeneratedClass /Game/Blueprints/Player/BP_Tank_Player.BP_Tank_Player_C
+[2020.01.13-03.24.52:900][343]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Barrel': BlueprintGeneratedClass /Game/Blueprints/Player/BP_Tank_Player.BP_Tank_Player_C
+[2020.01.13-03.24.52:901][343]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'LeftTrack': BlueprintGeneratedClass /Game/Blueprints/Player/BP_Tank_Player.BP_Tank_Player_C
+[2020.01.13-03.24.52:901][343]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'RightTrack': BlueprintGeneratedClass /Game/Blueprints/Player/BP_Tank_Player.BP_Tank_Player_C
+[2020.01.13-03.24.52:901][343]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Tank': BlueprintGeneratedClass /Game/Blueprints/Player/BP_Tank_Player.BP_Tank_Player_C
+[2020.01.13-03.24.52:901][343]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Camera': BlueprintGeneratedClass /Game/Blueprints/Player/BP_Tank_Player.BP_Tank_Player_C
+[2020.01.13-03.24.52:901][343]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'AzimuthGimbal': BlueprintGeneratedClass /Game/Blueprints/Player/BP_Tank_Player.BP_Tank_Player_C
+[2020.01.13-03.24.52:901][343]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'SpringArm': BlueprintGeneratedClass /Game/Blueprints/Player/BP_Tank_Player.BP_Tank_Player_C
+[2020.01.13-03.24.52:901][343]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'ExecuteUbergraph_BP_Tank_Player': BlueprintGeneratedClass /Game/Blueprints/Player/BP_Tank_Player.BP_Tank_Player_C
+[2020.01.13-03.24.52:901][343]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'CallFunc_K2_AddLocalRotation_SweepHitResult2': Function /Game/Blueprints/Player/BP_Tank_Player.BP_Tank_Player_C:ExecuteUbergraph_BP_Tank_Player
+[2020.01.13-03.24.52:901][343]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'CallFunc_MakeRotator_ReturnValue2': Function /Game/Blueprints/Player/BP_Tank_Player.BP_Tank_Player_C:ExecuteUbergraph_BP_Tank_Player
+[2020.01.13-03.24.52:901][343]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'CallFunc_K2_AddLocalRotation_SweepHitResult': Function /Game/Blueprints/Player/BP_Tank_Player.BP_Tank_Player_C:ExecuteUbergraph_BP_Tank_Player
+[2020.01.13-03.24.52:901][343]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'CallFunc_Multiply_FloatFloat_ReturnValue4': Function /Game/Blueprints/Player/BP_Tank_Player.BP_Tank_Player_C:ExecuteUbergraph_BP_Tank_Player
+[2020.01.13-03.24.52:901][343]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'CallFunc_MakeRotator_ReturnValue': Function /Game/Blueprints/Player/BP_Tank_Player.BP_Tank_Player_C:ExecuteUbergraph_BP_Tank_Player
+[2020.01.13-03.24.52:901][343]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'CallFunc_Multiply_FloatFloat_ReturnValue3': Function /Game/Blueprints/Player/BP_Tank_Player.BP_Tank_Player_C:ExecuteUbergraph_BP_Tank_Player
+[2020.01.13-03.24.52:901][343]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'CallFunc_Multiply_FloatFloat_ReturnValue2': Function /Game/Blueprints/Player/BP_Tank_Player.BP_Tank_Player_C:ExecuteUbergraph_BP_Tank_Player
+[2020.01.13-03.24.52:901][343]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'K2Node_InputAxisEvent_AxisValue': Function /Game/Blueprints/Player/BP_Tank_Player.BP_Tank_Player_C:ExecuteUbergraph_BP_Tank_Player
+[2020.01.13-03.24.52:901][343]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'CallFunc_Multiply_FloatFloat_ReturnValue': Function /Game/Blueprints/Player/BP_Tank_Player.BP_Tank_Player_C:ExecuteUbergraph_BP_Tank_Player
+[2020.01.13-03.24.52:902][343]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'CallFunc_GetWorldDeltaSeconds_ReturnValue2': Function /Game/Blueprints/Player/BP_Tank_Player.BP_Tank_Player_C:ExecuteUbergraph_BP_Tank_Player
+[2020.01.13-03.24.52:902][343]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'CallFunc_GetWorldDeltaSeconds_ReturnValue': Function /Game/Blueprints/Player/BP_Tank_Player.BP_Tank_Player_C:ExecuteUbergraph_BP_Tank_Player
+[2020.01.13-03.24.52:902][343]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'K2Node_InputAxisEvent_AxisValue2': Function /Game/Blueprints/Player/BP_Tank_Player.BP_Tank_Player_C:ExecuteUbergraph_BP_Tank_Player
+[2020.01.13-03.24.52:902][343]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'EntryPoint': Function /Game/Blueprints/Player/BP_Tank_Player.BP_Tank_Player_C:ExecuteUbergraph_BP_Tank_Player
+[2020.01.13-03.24.52:902][343]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'InpAxisEvt_Elevation_K2Node_InputAxisEvent_4': BlueprintGeneratedClass /Game/Blueprints/Player/BP_Tank_Player.BP_Tank_Player_C
+[2020.01.13-03.24.52:902][343]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'AxisValue': Function /Game/Blueprints/Player/BP_Tank_Player.BP_Tank_Player_C:InpAxisEvt_Elevation_K2Node_InputAxisEvent_4
+[2020.01.13-03.24.52:902][343]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'InpAxisEvt_Azimuth_K2Node_InputAxisEvent_0': BlueprintGeneratedClass /Game/Blueprints/Player/BP_Tank_Player.BP_Tank_Player_C
+[2020.01.13-03.24.52:902][343]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'AxisValue': Function /Game/Blueprints/Player/BP_Tank_Player.BP_Tank_Player_C:InpAxisEvt_Azimuth_K2Node_InputAxisEvent_0
+[2020.01.13-03.24.52:902][343]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'UserConstructionScript': BlueprintGeneratedClass /Game/Blueprints/Player/BP_Tank_Player.BP_Tank_Player_C
+[2020.01.13-03.24.52:902][343]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'UberGraphFrame': BlueprintGeneratedClass /Game/Blueprints/Player/BP_Tank_Player.BP_Tank_Player_C
+[2020.01.13-03.24.52:902][343]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Camera_GEN_VARIABLE': BlueprintGeneratedClass /Game/Blueprints/Player/BP_Tank_Player.BP_Tank_Player_C
+[2020.01.13-03.24.52:902][343]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'InputAxisDelegateBinding_1': BlueprintGeneratedClass /Game/Blueprints/Player/BP_Tank_Player.BP_Tank_Player_C
+[2020.01.13-03.24.52:903][343]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'AzimuthGimbal_GEN_VARIABLE': BlueprintGeneratedClass /Game/Blueprints/Player/BP_Tank_Player.BP_Tank_Player_C
+[2020.01.13-03.24.52:903][343]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot_GEN_VARIABLE': BlueprintGeneratedClass /Game/Blueprints/Player/BP_Tank_Player.BP_Tank_Player_C
+[2020.01.13-03.24.52:903][343]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'SimpleConstructionScript_0': BlueprintGeneratedClass /Game/Blueprints/Player/BP_Tank_Player.BP_Tank_Player_C
+[2020.01.13-03.24.52:903][343]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'SCS_Node_0': SimpleConstructionScript /Game/Blueprints/Player/BP_Tank_Player.BP_Tank_Player_C:SimpleConstructionScript_0
+[2020.01.13-03.24.52:903][343]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'SCS_Node_1': SimpleConstructionScript /Game/Blueprints/Player/BP_Tank_Player.BP_Tank_Player_C:SimpleConstructionScript_0
+[2020.01.13-03.24.52:903][343]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'SCS_Node_2': SimpleConstructionScript /Game/Blueprints/Player/BP_Tank_Player.BP_Tank_Player_C:SimpleConstructionScript_0
+[2020.01.13-03.24.52:903][343]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'SCS_Node_3': SimpleConstructionScript /Game/Blueprints/Player/BP_Tank_Player.BP_Tank_Player_C:SimpleConstructionScript_0
+[2020.01.13-03.24.52:903][343]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'SCS_Node_4': SimpleConstructionScript /Game/Blueprints/Player/BP_Tank_Player.BP_Tank_Player_C:SimpleConstructionScript_0
+[2020.01.13-03.24.52:903][343]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'SCS_Node_5': SimpleConstructionScript /Game/Blueprints/Player/BP_Tank_Player.BP_Tank_Player_C:SimpleConstructionScript_0
+[2020.01.13-03.24.52:903][343]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'SCS_Node_6': SimpleConstructionScript /Game/Blueprints/Player/BP_Tank_Player.BP_Tank_Player_C:SimpleConstructionScript_0
+[2020.01.13-03.24.52:903][343]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'SCS_Node_7': SimpleConstructionScript /Game/Blueprints/Player/BP_Tank_Player.BP_Tank_Player_C:SimpleConstructionScript_0
+[2020.01.13-03.24.52:904][343]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'SCS_Node_8': SimpleConstructionScript /Game/Blueprints/Player/BP_Tank_Player.BP_Tank_Player_C:SimpleConstructionScript_0
+[2020.01.13-03.24.52:904][343]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'SpringArm_GEN_VARIABLE': BlueprintGeneratedClass /Game/Blueprints/Player/BP_Tank_Player.BP_Tank_Player_C
+[2020.01.13-03.24.52:904][343]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Barrel_GEN_VARIABLE': BlueprintGeneratedClass /Game/Blueprints/Player/BP_Tank_Player.BP_Tank_Player_C
+[2020.01.13-03.24.52:904][343]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'LeftTrack_GEN_VARIABLE': BlueprintGeneratedClass /Game/Blueprints/Player/BP_Tank_Player.BP_Tank_Player_C
+[2020.01.13-03.24.52:904][343]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'RightTrack_GEN_VARIABLE': BlueprintGeneratedClass /Game/Blueprints/Player/BP_Tank_Player.BP_Tank_Player_C
+[2020.01.13-03.24.52:904][343]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Tank_GEN_VARIABLE': BlueprintGeneratedClass /Game/Blueprints/Player/BP_Tank_Player.BP_Tank_Player_C
+[2020.01.13-03.24.52:904][343]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Turret_GEN_VARIABLE': BlueprintGeneratedClass /Game/Blueprints/Player/BP_Tank_Player.BP_Tank_Player_C
+[2020.01.13-03.24.52:904][343]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Barrel': BP_Tank_AI_C /Game/Maps/Demo.Demo:PersistentLevel.BP_Tank_AI_212
+[2020.01.13-03.24.52:904][343]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'LeftTrack': BP_Tank_AI_C /Game/Maps/Demo.Demo:PersistentLevel.BP_Tank_AI_212
+[2020.01.13-03.24.52:905][343]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'RightTrack': BP_Tank_AI_C /Game/Maps/Demo.Demo:PersistentLevel.BP_Tank_AI_212
+[2020.01.13-03.24.52:905][343]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Tank': BP_Tank_AI_C /Game/Maps/Demo.Demo:PersistentLevel.BP_Tank_AI_212
+[2020.01.13-03.24.52:905][343]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Turret': BP_Tank_AI_C /Game/Maps/Demo.Demo:PersistentLevel.BP_Tank_AI_212
+[2020.01.13-03.25.01:019][254]LogTexture: Display: Building textures: Tank (BGRA8, 2048X1365)
+[2020.01.13-03.25.01:028][254]LogAIModule: Creating AISystem for world MainMenu
+[2020.01.13-03.25.01:040][254]Cmd: MAP LOAD FILE="F:/GitProject/UE_TankGame/Game/Content/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.01.13-03.25.01:040][254]LightingResults: New page: Lighting Build
+[2020.01.13-03.25.01:040][254]LoadErrors: New page: Loading map: MainMenu.umap
+[2020.01.13-03.25.01:041][254]MapCheck: New page: Map Check
+[2020.01.13-03.25.01:041][254]LightingResults: New page: Lighting Build
+[2020.01.13-03.25.01:056][254]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.01.13-03.25.01:078][254]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.01.13-03.25.01:129][254]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 51.592ms to complete.
+[2020.01.13-03.25.01:129][254]LogFileHelpers: Loading map 'MainMenu' took 0.091
+[2020.01.13-03.25.02:475][414]LogTemp: Repeating last play command: Selected Viewport
+[2020.01.13-03.25.02:522][414]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2020.01.13-03.25.02:522][414]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.13-03.25.02:542][414]PIE: New page: PIE session: MainMenu (Jan 13, 2020, 7:25:02 PM)
+[2020.01.13-03.25.02:542][414]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenu
+[2020.01.13-03.25.02:554][414]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012490s)
+[2020.01.13-03.25.02:555][414]LogAIModule: Creating AISystem for world MainMenu
+[2020.01.13-03.25.02:555][414]LogPlayLevel: PIE: World Init took: (0.000483s)
+[2020.01.13-03.25.02:555][414]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenu.MainMenu to /Game/Maps/UEDPIE_0_MainMenu.MainMenu (0.013156s)
+[2020.01.13-03.25.02:596][414]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.01.13-03.25.02:620][414]LogInit: FAudioDevice initialized.
+[2020.01.13-03.25.02:669][414]LogLoad: Game class is 'GameModeBase'
+[2020.01.13-03.25.02:692][414]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2020.01.13-11.25.02
+[2020.01.13-03.25.02:702][414]LogWorld: Bringing up level for play took: 0.011064
+[2020.01.13-03.25.02:773][414]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0019 seconds. Added 11 classes and 0 folders.
+[2020.01.13-03.25.02:804][414]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_MainMenu 0.219
+[2020.01.13-03.25.02:804][414]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2020.01.13-03.25.03:704][520]LogNet: Browse: /Game/Maps/Demo
+[2020.01.13-03.25.03:704][520]LogLoad: LoadMap: /Game/Maps/Demo
+[2020.01.13-03.25.03:715][520]Cmd: MEM
+[2020.01.13-03.25.03:731][520]LogMemory: Platform Memory Stats for Windows
+[2020.01.13-03.25.03:731][520]LogMemory: Process Physical Memory: 1104.78 MB used, 1194.34 MB peak
+[2020.01.13-03.25.03:731][520]LogMemory: Process Virtual Memory: 1708.73 MB used, 1749.65 MB peak
+[2020.01.13-03.25.03:731][520]LogMemory: Physical Memory: 7964.63 MB used,  57513.59 MB free, 65478.22 MB total
+[2020.01.13-03.25.03:731][520]LogMemory: Virtual Memory: 6771.82 MB used,  57513.59 MB free, 134217728.00 MB total
+[2020.01.13-03.25.03:731][520]LogMemory: 
+[2020.01.13-03.25.03:731][520]Allocator Stats for TBB: (not implemented)
+[2020.01.13-03.25.03:740][520]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/AI/BP_Tank_AI.BP_Tank_AI_C
+[2020.01.13-03.25.03:744][520]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/AI/BP_Tank_AI.BP_Tank_AI_C
+[2020.01.13-03.25.03:750][520]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/AI/BP_Tank_AI.BP_Tank_AI_C
+[2020.01.13-03.25.03:750][520]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/AI/BP_Tank_AI.BP_Tank_AI_C
+[2020.01.13-03.25.03:750][520]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/AI/BP_Tank_AI.BP_Tank_AI_C
+[2020.01.13-03.25.03:750][520]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/AI/BP_Tank_AI.BP_Tank_AI_C
+[2020.01.13-03.25.03:750][520]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/AI/BP_Tank_AI.BP_Tank_AI_C
+[2020.01.13-03.25.03:759][520]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/AI/BP_Tank_AI.BP_Tank_AI_C
+[2020.01.13-03.25.04:208][520]LogAIModule: Creating AISystem for world Demo
+[2020.01.13-03.25.04:208][520]LogLoad: Game class is 'BP_TankGameMode_C'
+[2020.01.13-03.25.04:213][520]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Demo.Demo up for play (max tick rate 0) at 2020.01.13-11.25.04
+[2020.01.13-03.25.04:213][520]LogWorld: Bringing up level for play took: 0.003641
+[2020.01.13-03.25.04:213][520]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2020.01.13-03.25.04:213][520]LogGameMode: Login: Couldn't spawn player controller of class NULL
+[2020.01.13-03.25.04:213][520]LogSpawn: Warning: Login failed: Failed to spawn player controller
+[2020.01.13-03.25.04:217][520]LogWindows: Windows GetLastError: The operation completed successfully. (0)

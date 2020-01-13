@@ -1,90 +1,85 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
+
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <ItemGroup>
-    <None Include="..\..\Game.uproject" />
-    <Filter Include="Source">
-      <UniqueIdentifier>{89D2E97D-82C6-4A7E-A3C9-6713D0F24234}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Source\Game.Target.cs">
-      <Filter>Source</Filter>
-    </None>
-    <None Include="..\..\Source\GameEditor.Target.cs">
-      <Filter>Source</Filter>
-    </None>
-    <Filter Include="Config">
-      <UniqueIdentifier>{5D1FF768-F2DC-4721-A597-6C257D45AA83}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Config\DefaultEditor.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultEngine.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultGame.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultInput.ini">
-      <Filter>Config</Filter>
-    </None>
-    <Filter Include="Source\Game">
-      <UniqueIdentifier>{4CB933B4-8141-4C3F-9CEE-FB270B43A301}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Source\Game\Game.Build.cs">
-      <Filter>Source\Game</Filter>
-    </None>
-    <ClCompile Include="..\..\Source\Game\Game.cpp">
-      <Filter>Source\Game</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\Game\Game.h">
-      <Filter>Source\Game</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\Game\GameGameModeBase.cpp">
-      <Filter>Source\Game</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\Game\GameGameModeBase.h">
-      <Filter>Source\Game</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <Filter Include="Source\Game\Public">
-      <UniqueIdentifier>{18579a74-7b41-46e9-874c-6fa84b9cc0f1}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source\Game\Private">
-      <UniqueIdentifier>{6a653ae4-8b11-4e29-8de2-70bed00df67e}</UniqueIdentifier>
-    </Filter>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\Game\Public\TankPlayerController.h">
-      <Filter>Source\Game\Public</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\Game\Public\Tank.h">
-      <Filter>Source\Game\Public</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\Game\Public\TankAIController.h">
-      <Filter>Source\Game\Public</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\Game\TankHelper.h">
-      <Filter>Source\Game</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\Game\Public\VStatic.h">
-      <Filter>Source\Game\Public</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\Game\Private\TankPlayerController.cpp">
-      <Filter>Source\Game\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Game\Private\Tank.cpp">
-      <Filter>Source\Game\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Game\Private\TankAIController.cpp">
-      <Filter>Source\Game\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Game\TankHelper.cpp">
-      <Filter>Source\Game</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Game\Private\VStatic.cpp">
-      <Filter>Source\Game\Private</Filter>
-    </ClCompile>
-  </ItemGroup>
+	<ItemGroup>
+		<None Include="..\..\Game.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{6C0B9AD1-0823-4588-87CE-CB55173AB640}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Game.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\GameEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{60DD4E07-BE57-4E83-B7D8-87B2D576478D}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\Game">
+			<UniqueIdentifier>{F6F61056-C698-4E07-8431-A02B4EA0A5CB}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Game\Game.Build.cs">
+			<Filter>Source\Game</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\Game\Game.cpp">
+			<Filter>Source\Game</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Game\Game.h">
+			<Filter>Source\Game</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Game\GameGameModeBase.cpp">
+			<Filter>Source\Game</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Game\GameGameModeBase.h">
+			<Filter>Source\Game</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Game\TankHelper.cpp">
+			<Filter>Source\Game</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Game\TankHelper.h">
+			<Filter>Source\Game</Filter>
+		</ClInclude >
+		<Filter Include="Source\Game\Private">
+			<UniqueIdentifier>{A3C0DB19-E9FF-45CE-B468-F32312C420F9}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\Game\Private\Tank.cpp">
+			<Filter>Source\Game\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\Game\Private\TankAIController.cpp">
+			<Filter>Source\Game\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\Game\Private\TankPlayerController.cpp">
+			<Filter>Source\Game\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\Game\Private\VStatic.cpp">
+			<Filter>Source\Game\Private</Filter>
+		</ClCompile >
+		<Filter Include="Source\Game\Public">
+			<UniqueIdentifier>{3214774D-7844-4F80-8E8A-4078BA37D65B}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Source\Game\Public\Tank.h">
+			<Filter>Source\Game\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\Game\Public\TankAIController.h">
+			<Filter>Source\Game\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\Game\Public\TankPlayerController.h">
+			<Filter>Source\Game\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\Game\Public\VStatic.h">
+			<Filter>Source\Game\Public</Filter>
+		</ClInclude >
+	</ItemGroup>
 </Project>
